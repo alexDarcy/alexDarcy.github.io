@@ -1,43 +1,65 @@
 #+TITLE:  2018 DP1
 #+OPTIONS: toc:nil timestamp:nil num:nil
-#+OPTIONS: reveal_width:2100 reveal_height:1300
+#+OPTIONS: reveal_width:2100 reveal_height:1500
 #+REVEAL_TRANS: nil
 #+REVEAL_ROOT: reveal.js/
-* TODO DP 1
-** DP1
+* DP1
 Un homme de 54 ans, tabagique au long cours et hypertendu depuis 12 ans (traitement par inhibiteur calcique), consulte
 son médecin traitant pour un épisode isolé d'hématurie macroscopique totale, sans caillot. Il a pour autre antécédent une
 appendicectomie dans l'enfance. L'hémogramme est le suivant : Hb 10,4 g/dL (VGM 78 µm3), GB 8 G/L, plaquettes 247
 G/L. La créatininémie est à 110 µmol/L (débit de filtration glomérulaire estimé à 65 ml/min/1,73 m2). Une échographie
 rénale a montré une masse hyper-échogène de 7 cm sur le rein droit.
-** Question 1 - Question à choix multiple
+* Question 1 - Question à choix multiple
 Quels sont les éléments (présents, ou à rechercher à l'interrogatoire et à l'examen clinique) pouvant faire évoquer une
 tumeur maligne du rein ? (une ou plusieurs réponses exactes)
-  A. [X] le tabagisme
-  B. [X] l'hypertension artérielle chronique
-  C. [ ] le traitement par inhibiteur calcique au long cours
-  D. [ ] un antécédent familial de néoplasie endocrinienne multiple
-  E. [ ] des douleurs lombaires
-** Question 2 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 1 - - 1)
+  A. le tabagisme
+  B. l'hypertension artérielle chronique
+  C. le traitement par inhibiteur calcique au long cours
+  D. un antécédent familial de néoplasie endocrinienne multiple
+  E. des douleurs lombaires
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- /FR/: tabac, obésité, homme, HTA, insuffisance rénale, transplantation rénale, tricholérythèlen, VHL
+- /Découverte/ : asymptomatique, pesanteur + masse lombaire, hématurie (micro/macro)
+- NEM1 = Parathyroïde, Pituitaire, Pancréas. NEM2 = CMT, Pheochromocytome, parathyroide
+- inhib calcique = protecteur
+* Question 2 - Question à choix multiple
 Quel(s) examen(s) demandez-vous en première intention ?
-  A. [ ] cytologie urinaire avec examen anatomo-pathologique
-  B. [ ] examen cyto-bactériologique des urines
-  C. [ ] dosage sérique de l'érythropoïétine
-  D. [X] scanner abdomino-pelvien avec et sans injection de produit de contraste
-  E. [ ] ponction echoguidée de la masse
-** Question 3 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (- 1 - 1)
+  A. cytologie urinaire avec examen anatomo-pathologique
+  B. examen cyto-bactériologique des urines
+  C. dosage sérique de l'érythropoïétine
+  D. scanner abdomino-pelvien avec et sans injection de produit de contraste
+  E. ponction echoguidée de la masse
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- ECBU = confirmation hématurie
+- EPO : polyglobulie parfois (sécrétion par cellules tumorales), non spécifique
+- Scan AP = diagnostic !
+- Ponction : métasase, doute imagerie, petite tumeur
+* Question 3 - Question à choix multiple
 Vous avez demandé un scanner abdomino-pelvien. Sur la coupe montrée ci-dessous, quelles sont les propositions vraies ?
 (une ou plusieurs réponses exactes)
 #+attr_html: :width 400 px
 [[./2018-dp1-q3.png]]
-  A. [X] il s'agit d'un scanner abdominal avec injection
-  B. [ ] il s'agit d'une coupe coronale
-  C. [ ] la structure numéro 1 est la veine cave inférieure
-     artère ?
-  D. [ ] la coupe passe à hauteur du 3ème duodénum
-  E. [ ] la structure numéro 2 correspond à l'artère mésentérique inférieure
-     sup ?
-** Question 4 - Question à choix multiple
+
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - 1 - 1)
+  A. il s'agit d'un scanner abdominal avec injection
+  B. il s'agit d'une coupe coronale
+  C. la structure numéro 1 est la veine cave inférieure
+  D. la coupe passe à hauteur du 3ème duodénum
+  E. la structure numéro 2 correspond à l'artère mésentérique inférieure
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
+- Sd de la pince aorto-mésentérique : duodenum, pancreas, veine rénale gauche
+
+* Question 4 - Question à choix multiple
 Le radiologue conclut à une tumeur de 7 cm évoquant un carcinome rénal à cellules claires du rein droit sans
 envahissement loco-régional ni veineux. Le bilan d'extension est négatif. Vous portez l'indication d'une néphrectomie totale
 élargie droite, et obtenez l'accord de l'anesthésiste. L'acte chirurgical est réalisé par voie coelioscopique avec un
@@ -45,105 +67,193 @@ saignement per opératoire de 800 ml. En post opératoire immédiat, le drain es
 pression artérielle à 120/80 mmHg avec une fréquence cardiaque à 105/min. L'hémoglobine dosée 6h après la chirurgie est
 de 6,7 g/dL, les plaquettes à 120 G/L, le bilan d'hémostase est normal. Vous décidez en accord avec l'anesthésiste de
 transfuser le patient. Quelles sont les propositions vraies? (une ou plusieurs bonnes réponses)
-  A. [X] le patient doit recevoir des culots globulaires
-  B. [ ] le patient doit recevoir des culots plaquettaires
-  C. [ ] en cas de transfusion de culots globulaires, vous prescririez des culots O négatif
-  D. [X] il faut disposer d'un résultat de recherche d'agglutinines irrégulières de moins de 48h
-  E. [ ] il n'existe, depuis 2003, aucun risque de transmission d'agents pathogènes infectieux par une transfusion de culot
-globulaire
-** Question 5 - Question à choix multiple
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1)
+  A. le patient doit recevoir des culots globulaires
+  B. le patient doit recevoir des culots plaquettaires
+  C. en cas de transfusion de culots globulaires, vous prescririez des culots O négatif
+  D. il faut disposer d'un résultat de recherche d'agglutinines irrégulières de moins de 48h
+  E. il n'existe, depuis 2003, aucun risque de transmission d'agents pathogènes infectieux par une transfusion de culot globulaire
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- transfusion si Hb < 7g/dL, plaquettes < 20G/L (50 si saignement)
+- RAI : 72h
+* Question 5 - Question à choix multiple
 Le patient a reçu 2 culots globulaires. Le lendemain, l'hémoglobine est remontée à 10 g/dL et la créatininémie est mesurée
 à 168 µmol/L. Quelle(s) est (sont) la (les) proposition(s) vraie(s) ?
-  A. [ ] il s'agit d'une insuffisance rénale aiguë
-  B. [ ] il faut recalculer le débit de filtration glomérulaire
-  C. [X] un obstacle sur le rein contro-latéral est probable
-  D. [X] il peut s'agir d'une insuffisance rénale fonctionnelle
-  E. [ ] il faut prescrire un ionogramme sur un échantillon urinaire
-** Question 6 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - - 1 1)
+  A. il s'agit d'une insuffisance rénale aiguë
+  B. il faut recalculer le débit de filtration glomérulaire
+  C. un obstacle sur le rein contro-latéral est probable
+  D. il peut s'agir d'une insuffisance rénale fonctionnelle
+  E. il faut prescrire un ionogramme sur un échantillon urinaire
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+IRA : fonctionnelle par hémorragie (écho N), iono + uére + créat pour vérifier
+* Question 6 - Question à choix multiple
 L'état du patient et l'hémoglobine se sont stabilisés.
 L'anatomo-pathologiste confirme le diagnostic de carcinome rénal à cellules claires. Vous le classez pT2aN0M0R0. Trois
 mois après la chirurgie, le patient a une fonction rénale qui s'est stabilisée: la créatininémie est à 214 µmol/L (débit de
 filtration glomérulaire estimé à 29 ml/min/1,73m2). Quelles sont les propositions exactes ? (une ou plusieurs bonnes
 réponses)
-  A. [ ] il présente une insuffisance rénale chronique modérée
-  B. [X] son traitement anti-hypertenseur doit comporter un inhibiteur du système rénine-angiotensine
-  C. [ ] la cible de LDL cholestérol à atteindre est de 1,3 g/L
-  D. [ ] il doit suivre un régime ne comportant pas plus que 1,5 g/kg de poids de protéines
-  E. [ ] il faut préconiser un régime pauvre en sucres rapides
-** Question 7 - Question à choix multiple
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (- 1)
+  A. il présente une insuffisance rénale chronique modérée
+  B. son traitement anti-hypertenseur doit comporter un inhibiteur du système rénine-angiotensine
+  C. la cible de LDL cholestérol à atteindre est de 1,3 g/L
+  D. il doit suivre un régime ne comportant pas plus que 1,5 g/kg de poids de protéines
+  E. il faut préconiser un régime pauvre en sucres rapides
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- sévère car 15 \lt DFG < le 30
+- IEC/ARA2
+- 0.8 \lt prot \lt 1 g/kg/j
+- LDL \lt 0.7-1g/L
+- non diabétique
+* Question 7 - Question à choix multiple
 Vous lui annnoncez qu'il a une insuffisance rénale chronique sévère. Quel(s) risque(s) court-il ?
-  A. [ ] diminution progressive de la diurèse
-  B. [X] augmentation du risque cardio-vasculaire
-  C. [ ] hyperphosphorémie
-  D. [ ] dysfonction érectile
-  E. [ ] cancer du rein contro-latéral
-** Question 8 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green)
+  A. diminution progressive de la diurèse
+  B. augmentation du risque cardio-vasculaire
+  C. hyperphosphorémie
+  D. dysfonction érectile
+  E. cancer du rein contro-latéral
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- diurèse maintenue jusque IRC terminale
+- diminution de l'excrétion rénale de phosphore
+- dysfonction érecile : perturbation endocrinienne, neuropathie urémique, atteinte tissulaire, médic
+- FR cancer du rein
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 1)
+* Question 8 - Question à choix multiple
 Le médecin traitant du patient vous contacte pour la prise en charge en Affection de Longue Durée (ALD) par l'Assurance
 Maladie de votre patient. Quelle(s) est (sont) la (les) réponse(s) vraie(s) ?
-  A. [ ] le dossier d'ALD est rempli par le patient et validé par le médecin spécialiste
-  B. [X] le médecin traitant doit préciser dans la demande le protocole de soins envisagé comprenant traitements, examens, et consultations
-  A. [X] le protocole de soins doit être validé par le médecin conseil de l'assurance maladie
-  B. [ ] en cas de prise en charge en ALD, reste à la charge du patient uniquement le ticket modérateur
-  C. [ ] le tiers payant est la partie des soins payée par l'assuré qu'il soit ou non pris inscrit en ALD
-** Question 9 - Question à choix multiple
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (- 1 1)
+  A. le dossier d'ALD est rempli par le patient et validé par le médecin spécialiste
+  B. le médecin traitant doit préciser dans la demande le protocole de soins envisagé comprenant traitements, examens, et consultations
+  C. le protocole de soins doit être validé par le médecin conseil de l'assurance maladie
+  D. en cas de prise en charge en ALD, reste à la charge du patient uniquement le ticket modérateur
+  E. le tiers payant est la partie des soins payée par l'assuré qu'il soit ou non pris inscrit en ALD
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+- MT
+- ticket modérateur = $ après remboursement par l'assurance-maladie
+- tiers payant = pas d'avance de frais (ALD, CME, CSS)
+
+* Question 9 - Question à choix multiple
 Après trois ans de suivi, pendant lesquels le patient n'a pas interrompu son tabagisme, et avec un contrôle médiocre de la
 pression artérielle malgré le traitement par IEC, le patient a un débit de filtration glomérulaire estimé à 12 ml/min/1,73 m2.
 Le patient a une diminution de l'appétit et un dégoût de la viande. A l'examen clinique, la PA est à 172/95 mm Hg, il existe
 de discrets oedèmes des membres inférieurs, mais pas d'anomalie à l'auscultation pulmonaire. L'auscultation cardiaque est
 sans particularité. Le ionogramme sanguin montre une kaliémie à 6 mmol/L, une bicarbonatémie est à 18 mmol/L. Quelle
 est votre interprétation de l'électrocardiogramme ci-dessous ?
-** Question 9 (suite)
+* Question 9 (suite)
 #+attr_html: :width 800 px
 [[./2018-dp1-q9.png]]
-  A. [X] rythme sinusal
-  B. [ ] bloc sino-auriculaire
-  C. [ ] ondes T évocatrices d'une hyperkaliémie
-  D. [ ] complexes QRS élargis
-  E. [X] hypertrophie ventriculaire gauche
-** Question 10 - Question à choix multiple
+#+ATTR_REVEAL: :frag (t)
+- Fréquence
+- RythmeSinusal, P normales (< 0.10s), P suivie de QRS, P-P constant sans échappement (https://www.e-cardiogram.com/bloc-sino-atrial/)
+- Axe : 0° car > 0 en DI et isoélectrique en AVF (https://litfl.com/ecg-axis-interpretation/)
+- Nécrose
+- Conduction: 0.12s \le PR normal \le 0.20s, QRS fin (< 3 carreaux)
+- HIpertrophie : Sokolov S1 - R5 > 35mm
+- Repolarisation : T < 0 physiologique si non dominant sur S
+- Pas d'hyperK
+* Question 9 suite)
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - - - 1)
+  A. rythme sinusal
+  B. bloc sino-auriculaire
+  C. ondes T évocatrices d'une hyperkaliémie
+  D. complexes QRS élargis
+  E. hypertrophie ventriculaire gauche
+
+* Question 10 - Question à choix multiple
 Pour diminuer le syndrome oedémateux, que préconisez-vous à ce stade ? (une ou plusieurs réponses exactes)
-  A. [X] un régime pauvre en sel (moins de 6 g/j)
-  B. [ ] une restriction hydrique
-  C. [X] un diurétique de l'anse (furosémide)
-  D. [ ] un diurétique thiazidique (hydrochlorothiazide)
-  E. [ ] une ultrafiltration sanguine (début de l'hémodialyse)
-** Question 11 - Question à choix multiple
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - 1 -)
+  A. un régime pauvre en sel (moins de 6 g/j)
+  B. une restriction hydrique
+  C. un diurétique de l'anse (furosémide)
+  D. un diurétique thiazidique (hydrochlorothiazide)
+  E. une ultrafiltration sanguine (début de l'hémodialyse)
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+PEC de l'HEC = surcharge en eau et sodium => restreindre les deux
+(attention: HIC =  baisse de l'olomalitié extra-celluaire => restriction hydrique)
+* Question 11 - Question à choix multiple
 Le syndrome oedémateux s'est amendé sous furosémide. Le patient qui surveille régulièrement son bilan biologique revient
 vous voir car le biologiste lui a conseillé de consulter en urgence. Son ionogramme indique : créatininémie 280 µmol/L,
 potassium 4,9 mmol/L, bicarbonates 21 mmol/l, calcémie 2,68 mmol/l, phosphorémie 1,38 mmol/L
 Quelles sont la ou les causes possibles dans le contexte de la nouvelle anomalie biologique constatée ?
-  A. [ ] prise excessive de calcium
-  B. [ ] prise de furosémide
-  C. [X] insuffisance rénale chronique
-  D. [X] hyperparathyroïdie secondaire
-  E. [X] métastases osseuses d'un cancer du rein
-** Question 12 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - - - 1)
+  A. prise excessive de calcium
+  B. prise de furosémide
+  C. insuffisance rénale chronique
+  D. hyperparathyroïdie secondaire
+  E. métastases osseuses d'un cancer du rein
+Notes
+#+ATTR_REVEAL: :frag (t)
+- Ca2+ et phosphore varient en sens inverse
+- PTH = hypercalcémiante => apport de Ca2+ possible ici (diminue PTH donc augmente phosphorémie)
+- IRC = déficit
+
+* Question 11
+ #+attr_html: :width 800 px
+[[./calcium.png]]
+* Question 12 - Question à choix multiple
 Il n'a aucun symptôme à part des douleurs du rachis lombaire, diffuses. Son électrocardiogramme est superposable à ses
 précédents électrocardiogrammes. Quel(s) examen(s) complémentaire(s) préconisez-vous pour explorer cette anomalie
 biologique ?
-  A. [ ] calcémie ionisée
-  B. [ ] test de PAK
-  C. [X] dosage de la PTH
-  D. [ ] dosage de la PTHrp
-  E. [ ] scintigraphie osseuse
-** Question 13 - Question à choix multiple
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - 1 - 1)
+  A. calcémie ionisée
+  B. test de PAK
+  C. dosage de la PTH
+  D. dosage de la PTHrp
+  E. scintigraphie osseuse
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+Scinti pour méta
+* Question 12
+#+attr_html: :width 800 px
+[[./hypercalcemie.png]]
+* Question 13 - Question à choix multiple
 Vous avez découvert des métastases osseuses. La fonction rénale du patient continue à se dégrader, et vous réévaluez
 les possibilités de traitement de l'insuffisance rénale terminale.
 Quelles propositions sont exactes ? (une ou plusieurs réponses exactes)
-  A. [ ] un cancer métastatique est une contre-indication à la mise en dialyse
-  B. [ ] l'hémodialyse confère un avantage de survie par rapport à la dialyse péritonéale
-  C. [ ] la confection d'une fistule artério-veineuse est contre-indiquée compte tenu du pronostic engagé
-  D. [ ] un cathéter veineux central tunnelisé peut être mis en place pour débuter une hémodialyse
-  E. [X] on doit discuter une transplantation à partir d'un donneur cadavérique
-** Question 14 - Question à choix multiple
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (- - - 1)
+  A. un cancer métastatique est une contre-indication à la mise en dialyse
+  B. l'hémodialyse confère un avantage de survie par rapport à la dialyse péritonéale
+  C. la confection d'une fistule artério-veineuse est contre-indiquée compte tenu du pronostic engagé
+  D. un cathéter veineux central tunnelisé peut être mis en place pour débuter une hémodialyse
+  E. on doit discuter une transplantation à partir d'un donneur cadavérique
+
+Notes
+#+ATTR_REVEAL: :frag (t)
+CI à la transplantation !
+* Question 14 - Question à choix multiple
 L'épouse du patient vous dit qu'elle a entendu parler lors d'une émission de télévision de la possibilité de donner un rein.
 D'une manière générale, concernant les donneurs vivants, quelles sont les propositions vraies? (une ou plusieurs bonnes
 réponses)
-  A. [ ] seuls les personnes ayant un lien génétique avec le receveur peuvent être donneurs
-  B. [ ] la transplantation peut se faire en condition ABO incompatible
-  C. [ ] la compatibilité rhésus doit être respectée
-  D. [ ] l'incompatibilité HLA entre donneur et receveur est une contre-indication formelle
-  E. [ ] le donneur est rémunéré sur une base proportionnelle au délai d'attente du receveur
+
+#+ATTR_REVEAL: :frag (highlight-green) :frag_idx (- 1)
+  A. seuls les personnes ayant un lien génétique avec le receveur peuvent être donneurs
+  B. la transplantation peut se faire en condition ABO incompatible
+  C. la compatibilité rhésus doit être respectée
+  D. l'incompatibilité HLA entre donneur et receveur est une contre-indication formelle
+  E. le donneur est rémunéré sur une base proportionnelle au délai d'attente du receveur
+Notes
+#+ATTR_REVEAL: :frag (t)
+ Lien affectif étroit et stable > 2ans
+ Cross-match = CI si positif avant la greff (LT du donner + sérum receveur)
 * HOLD DP 2 :noexport:
 Vous suivez pour sa première grossesse une patiente de 24 ans atteinte d’un syndrome de Turner (formule 45, X). En
 raison d’une insuffisance ovarienne, sa grossesse a été obtenue par don d’ovocytes. Le bilan pré gestationnel maternel a
@@ -154,74 +264,74 @@ Ses antécédents comprennent : une appendicectomie par cœlioscopie, un asthme 
 plusieurs infections urinaires hautes.
 ** Question 1 - Question à choix multiple
 Quel(s) examen(s) complémentaire(s) prescrivez-vous en début de grossesse ?
-  A. [ ] frottis cervico-utérin
-  B. [ ] antigène HBs
-  C. [ ] glycémie à jeun
-  D. [ ] explorations fonctionnelles respiratoires
-  E. [ ] examen cytobactériologique des urines
+  A. frottis cervico-utérin
+  B. antigène HBs
+  C. glycémie à jeun
+  D. explorations fonctionnelles respiratoires
+  E. examen cytobactériologique des urines
 ** Question 2 - Question à choix multiple
 Concernant le dépistage de la trisomie 21 dans le cas présent, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] la mesure de la clarté nucale s’effectue sur une coupe axiale du fœtus
-  B. [ ] le dépistage combiné du premier trimestre prend en compte l’âge gestationnel
-  C. [ ] le dépistage séquentiel intégré du second trimestre n’est pas possible en raison du syndrome de Turner
-  D. [ ] l’âge de la patiente est pris en compte pour le calcul du risque combiné du premier trimestre
-  E. [ ] l’hCG total est pris en compte pour le dépistage combiné du premier trimestre
+  A. la mesure de la clarté nucale s’effectue sur une coupe axiale du fœtus
+  B. le dépistage combiné du premier trimestre prend en compte l’âge gestationnel
+  C. le dépistage séquentiel intégré du second trimestre n’est pas possible en raison du syndrome de Turner
+  D. l’âge de la patiente est pris en compte pour le calcul du risque combiné du premier trimestre
+  E. l’hCG total est pris en compte pour le dépistage combiné du premier trimestre
 ** Question 3 - Question à choix multiple
 Les sérologies concernant la toxoplasmose ont été réalisées à 11+5 SA et 16+1 SA et étaient négatives pour les IgG et
 les IgM. La patiente vous montre le résultat de sa dernière sérologie réalisée à 22+2 SA qui révèle des IgG et des IgM
 franchement positives. Quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] il s’agit d’une séroconversion toxoplasmique
-  B. [ ] l’instauration d’un traitement par spiramycine est licite
-  C. [ ] une amniocentèse doit être proposée au moins 4 semaines après la date présumée de la séroconversion
-  D. [ ] un test d’avidité des IgG est indiqué
-  E. [ ] une réaction croisée avec d’autres agents infectieux peut expliquer ce résultat sérologique
+  A. il s’agit d’une séroconversion toxoplasmique
+  B. l’instauration d’un traitement par spiramycine est licite
+  C. une amniocentèse doit être proposée au moins 4 semaines après la date présumée de la séroconversion
+  D. un test d’avidité des IgG est indiqué
+  E. une réaction croisée avec d’autres agents infectieux peut expliquer ce résultat sérologique
 ** Question 4 - Question à choix multiple
 Vous instaurez un traitement par spiramycine. Concernant cette molécule et la classe pharmacologique à laquelle elle
 appartient, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] la spiramycine a une action parasiticide sur Toxoplasma gondii
-  B. [ ] elle agit par inhibition de la synthèse des protéines bactériennes par fixation à une sous unité ribosomale
-  C. [ ] elle est active sur Mycoplasma hominis
-  D. [ ] Pseudomonas aeruginosa est naturellement résistant
-  E. [ ] il s’agit de la classe thérapeutique employée dans le traitement de la coqueluche
+  A. la spiramycine a une action parasiticide sur Toxoplasma gondii
+  B. elle agit par inhibition de la synthèse des protéines bactériennes par fixation à une sous unité ribosomale
+  C. elle est active sur Mycoplasma hominis
+  D. Pseudomonas aeruginosa est naturellement résistant
+  E. il s’agit de la classe thérapeutique employée dans le traitement de la coqueluche
 ** Question 5 - Question à choix multiple
 Vous décidez de rechercher une transmission materno-fœtale de Toxoplasma gondii. Quelle(s) est(sont) la(les)
 proposition(s) exacte(s) ?
-  A. [ ] la recherche du parasite est réalisée par une choriocentèse
-  B. [ ] le génome de Toxoplasma gondii est recherché dans le liquide amniotique
-  C. [ ] une recherche des IgG spécifiques est effectuée sur sang fœtal
-  D. [ ] une choriorétinite doit être recherchée par échographie fœtale
-  E. [ ] une anémie fœtale doit être recherchée par la mesure des vitesses cérébrales en échographie Doppler
+  A. la recherche du parasite est réalisée par une choriocentèse
+  B. le génome de Toxoplasma gondii est recherché dans le liquide amniotique
+  C. une recherche des IgG spécifiques est effectuée sur sang fœtal
+  D. une choriorétinite doit être recherchée par échographie fœtale
+  E. une anémie fœtale doit être recherchée par la mesure des vitesses cérébrales en échographie Doppler
 ** Question 6 - Question à choix multiple
 Vous avez réalisé une amniocentèse à 27 SA. Le soir même de la réalisation du geste, la patiente vient consulter pour des
 douleurs abdominales intermittentes qui durent depuis plusieurs heures. Il n’y a pas de perte vaginale de liquide ou de
 sang. La température est à 37,2°C. La pression artérielle est à 120/70 mmHg. Le col est raccourci au toucher vaginal et
 mesuré à 18 mm par échographie endovaginale. Quel(s) traitement(s) instaurez-vous ?
-  A. [ ] bétaméthasone
-  B. [ ] maintien du traitement par spiramycine
-  C. [ ] indométacine
-  D. [ ] atosiban
-  E. [ ] sulfate de magnesium
+  A. bétaméthasone
+  B. maintien du traitement par spiramycine
+  C. indométacine
+  D. atosiban
+  E. sulfate de magnesium
 ** Question 7 - Question à choix multiple
 Après 24 heures de prise en charge en hospitalisation, la patiente constate des pertes de liquide malodorantes par le vagin.
 Les contractions utérines ont repris et sont douloureuses. La température est à 39,3°C. Elle a des frissons. Un
 enregistrement cardiotocographique est réalisé et montre une tachycardie fœtale et objective 5 contractions utérines toutes
 les 10 minutes. Quel est le diagnostic le plus probable ?
-  A. [ ] appendicite aigue
-  B. [ ] pyélonéphrite aigue
-  C. [ ] listeriose
-  D. [ ] septicémie à toxoplasme
-  E. [ ] chorioamniotite
+  A. appendicite aigue
+  B. pyélonéphrite aigue
+  C. listeriose
+  D. septicémie à toxoplasme
+  E. chorioamniotite
 ** Question 8 - Question à choix multiple
 Devant cette chorioamniotite et la présence d'anomalies du rythme cardiaque foetal, vous réalisez une césarienne en
 urgence sous anesthésie générale. Dès l’extraction de l’enfant, un saignement abondant d’origine endo-utérine est observé.
 Une délivrance manuelle du placenta est réalisée et l’hystérotomie est suturée. L’utérus reste mou et un saignement
 important persiste extériorisé par voie vaginale malgré la perfusion d’ocytociques. La patiente est stable au point de vue
 hémodynamique. Quelle(s) option(s) thérapeutique(s) peut(vent) être utilisée(s) dans cette situation ?
-  A. [ ] perfusion de mifepristone
-  B. [ ] ligature des artères utérines
-  C. [ ] perfusion de methotrexate
-  D. [ ] perfusion de sulprostone
-  E. [ ] ligature des artères iliaques externes
+  A. perfusion de mifepristone
+  B. ligature des artères utérines
+  C. perfusion de methotrexate
+  D. perfusion de sulprostone
+  E. ligature des artères iliaques externes
 ** Question 9 - Question à choix multiple
 Une perfusion de sulprostone est mise en place. Un Hemocue révèle un taux d’hémoglobine de 6 g/dL. Les pertes
 sanguines sont estimées à 1500 mL. La pression artérielle est à 100/60 mmHg et la fréquence cardiaque est à 130
@@ -237,11 +347,11 @@ Fibrinogénémie 0,5 g/L
 D-Dimères élevés
 Parmi les éléments de ce bilan, lequel ou lesquels entre(nt) dans la définition d’une coagulation intravasculaire disséminée
 (CIVD) biologique ?
-  A. [ ] plaquettes
-  B. [ ] leucocytes
-  C. [ ] fibrinogène
-  D. [ ] D Dimères
-  E. [ ] hémoglobine
+  A. plaquettes
+  B. leucocytes
+  C. fibrinogène
+  D. D Dimères
+  E. hémoglobine
 ** Question 10 - Question à choix multiple
 Compte tenu du bilan biologique, une transfusion d’un concentré plaquettaire et de 4 culots globulaires est pratiquée ainsi
 qu’une injection de 1,5 g de fibrinogène. Une heure après la naissance, le saignement est désormais tari. La patiente est
@@ -258,48 +368,48 @@ cyanose généralisée,
 hypotonie,
 besoins en oxygène (O2) à 50% pour maintenir une saturométrie à 90 %.
 A propos de l’état clinique néonatal, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] il s’agit d’une détresse respiratoire transitoire
-  B. [ ] le score d’Apgar n’est pas interprétable en cas de prématurité
-  C. [ ] les besoins en oxygène de cet enfant constituent un signe de gravité
-  D. [ ] le score de Silverman est de 8
-  E. [ ] la cyanose généralisée est en faveur d'une anémie du nouveau né
+  A. il s’agit d’une détresse respiratoire transitoire
+  B. le score d’Apgar n’est pas interprétable en cas de prématurité
+  C. les besoins en oxygène de cet enfant constituent un signe de gravité
+  D. le score de Silverman est de 8
+  E. la cyanose généralisée est en faveur d'une anémie du nouveau né
 ** Question 11 - Question à choix multiple
 L’état respiratoire de l’enfant s’améliore mais après 36 heures en néonatologie, son état se dégrade brutalement. Une
 radiographie pulmonaire est réalisée. Quel(s) diagnostic(s) pouvez-vous retenir à l’interprétation de ce cliché ?
-  A. [ ] épanchement pleural liquidien gauche
-  B. [ ] atélectasie rétrocardiaque gauche
-  C. [ ] pneumothorax droit
-  D. [ ] hernie diaphragmatique gauche
-  E. [ ] pneumopéritoine droit
+  A. épanchement pleural liquidien gauche
+  B. atélectasie rétrocardiaque gauche
+  C. pneumothorax droit
+  D. hernie diaphragmatique gauche
+  E. pneumopéritoine droit
 ** Question 12 - Question à choix multiple
 Vous diagnostiquez un pneumothorax droit. Après exsufflation de ce dernier, l’état respiratoire de l’enfant s’améliore
 nettement.
 Par ailleurs, à 48 heures de la césarienne, la maman se plaint d’une douleur thoracique. Chez cette patiente, quelle(s)
 pathologie(s) devez-vous éliminer en premier lieu ?
-  A. [ ] œdème aigu cardiogénique
-  B. [ ] dissection aortique
-  C. [ ] pneumopathie bactérienne
-  D. [ ] péricardite
-  E. [ ] embolie pulmonaire
+  A. œdème aigu cardiogénique
+  B. dissection aortique
+  C. pneumopathie bactérienne
+  D. péricardite
+  E. embolie pulmonaire
 ** Question 13 - Question à choix multiple
 Outre la douleur thoracique, la patiente se plaint d’une dyspnée. La pression artérielle est à 130/70 mmHg. Les pouls sont
 symétriques. La température est à 37,5°C. Vous décidez de réaliser d’emblée un angioscanner pulmonaire en urgence.
 Quel(s) anomalie(s) identifiez-vous sur ces 3 clichés ?
 Proposition A
 dilatation du ventricule gauche
-  B. [ ] dissection de l’aorte ascendante
-  C. [ ] cœur pulmonaire aigu
-  D. [ ] embolie pulmonaire bilatérale
-  E. [ ] pneumomédiastin
+  B. dissection de l’aorte ascendante
+  C. cœur pulmonaire aigu
+  D. embolie pulmonaire bilatérale
+  E. pneumomédiastin
 ** Question 14 - Question à choix multiple
 Une embolie pulmonaire est diagnostiquée. Une héparinothérapie à dose curative est introduite. La patiente est retransférée
 en maternité après 48h. Elle souhaite allaiter mais s'inquiète car elle a un herpès labial. Que lui répondez vous au sujet de
 l'allaitement ? (une ou plusieurs réponses exactes)
-  A. [ ] l'allaitement est possible malgré le traitement par héparine
-  B. [ ] l'allaitement n'est pas possible, l'enfant étant prématuré
-  C. [ ] l'herpés labial contre-indique l'allaitement
-  D. [ ] elle n'aura pas de montée de lait en raison du syndrome de Turner
-  E. [ ] l'allaitement n'est pas recommandé chez cette patiente devant les complications de l'accouchement
+  A. l'allaitement est possible malgré le traitement par héparine
+  B. l'allaitement n'est pas possible, l'enfant étant prématuré
+  C. l'herpés labial contre-indique l'allaitement
+  D. elle n'aura pas de montée de lait en raison du syndrome de Turner
+  E. l'allaitement n'est pas recommandé chez cette patiente devant les complications de l'accouchement
 * HOLD DP3 :noexport:
 Vous prenez en charge en hôpital de jour une patiente de 91 ans, adressée par son médecin traitant et ses enfants, pour
 des troubles mnésiques et des troubles de l’équilibre avec chutes. Dans ses antécédents, vous notez une hypertension
@@ -313,19 +423,19 @@ semaine.
 ** Question 1 - Question à choix multiple
 Pour l’évaluation de la dépendance, parmi les propositions suivantes, laquelle (lesquelles) correspond(ent) à une fonction
 instrumentale ?
-  A. [ ] Se laver
-  B. [ ] Faire les courses
-  C. [ ] Préparer un repas
-  D. [ ] S’habiller
-  E. [ ] Gérer ses médicaments
+  A. Se laver
+  B. Faire les courses
+  C. Préparer un repas
+  D. S’habiller
+  E. Gérer ses médicaments
 ** Question 2 - Question à choix multiple
 Un patient dépendant peut bénéficier de l’allocation personnalisée à l’autonomie. Sélectionnez la(les) proposition(s) juste(s)
 parmi les suivantes :
-  A. [ ] elle concerne les patients de plus de 60 ans
-  B. [ ] elle est attribuée aux personnes GIR 5 et 6 selon la grille AGGIR
-  C. [ ] son montant dépend du niveau de dépendance
-  D. [ ] son montant dépend des revenus individuels
-  E. [ ] elle concerne aussi les patients en EHPAD
+  A. elle concerne les patients de plus de 60 ans
+  B. elle est attribuée aux personnes GIR 5 et 6 selon la grille AGGIR
+  C. son montant dépend du niveau de dépendance
+  D. son montant dépend des revenus individuels
+  E. elle concerne aussi les patients en EHPAD
 ** Question 3 - Question à choix multiple
 L’échelle IADL (Instrumental activities of daily living) est à 6/8. La patiente est peu informative, mais elle se dit fatiguée
 dès qu’elle essaye de faire un effort. Elle vient accompagnée de sa fille qui trouve sa maman triste, et qui mentionne
@@ -337,104 +447,104 @@ mots à 2/3. Concernant l’évaluation de la mémoire récente dans le bilan ne
 patiente présente un déficit du rappel libre bien corrigé par l’indiçage (réactivité 87.5 %). La Batterie Rapide d'Efficience
 Frontale (BREF) est à 15/18.
 Vous évoquez un trouble neurocognitif majeur selon le DSM 5. Quel(s) critère(s) parmi les suivants en fait(font) partie ?
-  A. [ ] Evolution lente progressive
-  B. [ ] Déclin dans au moins un domaine cognitif
-  C. [ ] Altération de la mémoire
-  D. [ ] Interférence des troubles cognitifs avec l’autonomie
-  E. [ ] Aggravation des troubles lors des épisodes confusionnels
+  A. Evolution lente progressive
+  B. Déclin dans au moins un domaine cognitif
+  C. Altération de la mémoire
+  D. Interférence des troubles cognitifs avec l’autonomie
+  E. Aggravation des troubles lors des épisodes confusionnels
 ** Question 4 - Question à choix multiple
 L’IRM cérébrale montre une leucopathie vasculaire stade III de Fazekas, avec deux séquelles vasculaires ischémiques
 lacunaires, ainsi qu’une atrophie hippocampique stade I de Scheltens. Le bilan neuropsychologique montre une atteinte
 visuo-verbale de profil sous-cortical, et un syndrome dyséxécutif.
 Quel(s) diagnostic(s) parmi les suivants évoquez-vous ?
-  A. [ ] Maladie d’Alzheimer
-  B. [ ] Maladie cérébrovasculaire
-  C. [ ] Hydrocéphalie chronique
-  D. [ ] Dépression
-  E. [ ] Dégénérescence lobaire fronto-temporale
+  A. Maladie d’Alzheimer
+  B. Maladie cérébrovasculaire
+  C. Hydrocéphalie chronique
+  D. Dépression
+  E. Dégénérescence lobaire fronto-temporale
 ** Question 5 - Question à choix multiple
 Vous retenez le diagnostic de trouble neurocognitif majeur d’origine cérébrovasculaire et de syndrome dépressif.
 Quel(s) élément(s) dans le cadre du traitement parmi les suivants mettez-vous en route à ce stade ?
-  A. [ ] Equilibre des facteurs de risque cardiovasculaire
-  B. [ ] Inhibiteur de l’acétylcholine estérase
-  C. [ ] Suivi psychologique
-  D. [ ] Protection juridique
-  E. [ ] Allocation personnalisée à l’autonomie
+  A. Equilibre des facteurs de risque cardiovasculaire
+  B. Inhibiteur de l’acétylcholine estérase
+  C. Suivi psychologique
+  D. Protection juridique
+  E. Allocation personnalisée à l’autonomie
 ** Question 6 - Question à choix multiple
 La patiente est sédentaire, pèse 70 kgs pour 1,52 m soit un indice de masse corporelle de 30 kg/m2. La pression artérielle
 est à 133/65 mmHg, la fréquence cardiaque à 45/min. Sa fille vous signale que la patiente a toujours un pouls lent
 lorsqu’elle prend ses constantes à la maison, entre 40 et 50/min. L’index de pression systolique est à 1,2. HbA1C 7.9%,
 albumine 31 g/L, CRP 2 mg/L (normale <5), hémoglobine 12 g/dL.
 Concernant les facteurs de risque cardiovasculaire de cette patiente, quelle(s) mesure(s) prenez-vous ?
-  A. [ ] Régime hypocalorique
-  B. [ ] Régime hypoglucidique
-  C. [ ] Régime hyperprotidique
-  D. [ ] Régime désodé
-  E. [ ] Activité physique adaptée
+  A. Régime hypocalorique
+  B. Régime hypoglucidique
+  C. Régime hyperprotidique
+  D. Régime désodé
+  E. Activité physique adaptée
 ** Question 7 - Question à choix multiple
 Concernant l’index de pression systolique (IPS), quelle(s) proposition(s) est(sont) juste(s) ?
-  A. [ ] Il permet le dépistage de l’artériopathie oblitérante des membres inférieurs
-  B. [ ] Sa mesure est contre-indiquée en cas d’ischémie critique
-  C. [ ] Il se calcule par le ratio de la pression artérielle de cheville sur la pression artérielle humérale
-  D. [ ] Une IPS supérieure à 1,30 traduit des artères incompressibles, rigides et calcifiées
-  E. [ ] Il permet de suivre l’évolutivité de l’artériopathie oblitérante des membres inférieurs
+  A. Il permet le dépistage de l’artériopathie oblitérante des membres inférieurs
+  B. Sa mesure est contre-indiquée en cas d’ischémie critique
+  C. Il se calcule par le ratio de la pression artérielle de cheville sur la pression artérielle humérale
+  D. Une IPS supérieure à 1,30 traduit des artères incompressibles, rigides et calcifiées
+  E. Il permet de suivre l’évolutivité de l’artériopathie oblitérante des membres inférieurs
 ** Question 8 - Question à choix multiple
 La patiente rapporte également trois chutes récentes, alors que sa fille précise qu’elle ne tombait pas avant. La patiente
 mentionne une sensation vertigineuse lors de la première chute, fugace, mais évoque surtout une maladresse à chaque
 fois, comme lorsqu’elle a buté dans le rebord d’un trottoir. Les explorations ORL réalisées en ville sont normales.
 Vous effectuez une recherche d’hypotension orthostatique. Choisissez la(les) proposition(s) juste(s) parmi les suivantes :
-  A. [ ] Une recherche négative élimine une hypotension ortostatique
-  B. [ ] Une accélération de la fréquence cardiaque >100/min évoque une dysautonomie
-  C. [ ] Une baisse de la pression artérielle systolique ≥ 20 mmHg à l’orthostatisme confirme le diagnostic
-  D. [ ] L’absence de symptômes à l’orthostatisme écarte le diagnostic
-  E. [ ] Une baisse isolée de la pression artérielle diastolique ≥ 10 mmHg à l’orthostatisme confirme le diagnostic
+  A. Une recherche négative élimine une hypotension ortostatique
+  B. Une accélération de la fréquence cardiaque >100/min évoque une dysautonomie
+  C. Une baisse de la pression artérielle systolique ≥ 20 mmHg à l’orthostatisme confirme le diagnostic
+  D. L’absence de symptômes à l’orthostatisme écarte le diagnostic
+  E. Une baisse isolée de la pression artérielle diastolique ≥ 10 mmHg à l’orthostatisme confirme le diagnostic
 ** Question 9 - Question à choix multiple
 Vous confirmez l’hypotension orthostatique chez cette patiente. Quel(s) facteur(s), dans le cas de cette patiente, parmi les
 suivants a(ont) pu y contribuer?
-  A. [ ] Diabète non insulinodépendant
-  B. [ ] Hypertension artérielle
-  C. [ ] Inhibiteur calcique
-  D. [ ] Sédentarité
-  E. [ ] Taux d'hémoglobine
+  A. Diabète non insulinodépendant
+  B. Hypertension artérielle
+  C. Inhibiteur calcique
+  D. Sédentarité
+  E. Taux d'hémoglobine
 ** Question 10 - Question à choix multiple
 L’index de pression systolique est à 1,2. Quelle(s) mesure(s) thérapeutique(s) en première intention prenez-vous
 concernant cette hypotension orthostatique ?
-  A. [ ] Contention veineuse de classe 2
-  B. [ ] Ajout de midodrine
-  C. [ ] Ajout de fludrocortisone
-  D. [ ] Arrêt du traitement antihypertenseur
-  E. [ ] Activité physique régulière
+  A. Contention veineuse de classe 2
+  B. Ajout de midodrine
+  C. Ajout de fludrocortisone
+  D. Arrêt du traitement antihypertenseur
+  E. Activité physique régulière
 ** Question 11 - Question à choix multiple
 La patiente amène un électrocardiogramme. Quelle(s) anomalie(s) notez vous ?
-  A. [ ] Rythme sinusal
-  B. [ ] Bloc auriculoventriculaire du second degré
-  C. [ ] Bloc sinoatrial paroxystique
-  D. [ ] Axe gauche des QRS
-  E. [ ] Bloc de branche droit
+  A. Rythme sinusal
+  B. Bloc auriculoventriculaire du second degré
+  C. Bloc sinoatrial paroxystique
+  D. Axe gauche des QRS
+  E. Bloc de branche droit
 ** Question 12 - Question à choix multiple
 Au vu de l’ensemble du dossier, quelle(s) anomalie(s) recherchez-vous sur le holter demandé par le médecin traitant ?
-  A. [ ] Dysfonction sinusale
-  B. [ ] Fibrillation auriculaire paroxystique
-  C. [ ] Tachycardie ventriculaire paroxystique
-  D. [ ] Cardiopathie ischémique
-  E. [ ] Bloc auriculoventriculaire de haut degré
+  A. Dysfonction sinusale
+  B. Fibrillation auriculaire paroxystique
+  C. Tachycardie ventriculaire paroxystique
+  D. Cardiopathie ischémique
+  E. Bloc auriculoventriculaire de haut degré
 ** Question 13 - Question à choix multiple
 Le holter montre une dysfonction sinusale (bloc sinoatrial de haut degré) et nodale (BAV2 Mobitz2) avec des périodes
 longues de bradycardie entre 35 et 40 par minute, sans fibrillation auriculaire. Quel(s) traitement(s) décidez-vous ?
-  A. [ ] Pose de pacemaker double chambre
-  B. [ ] Arrêt de l’inhibiteur calcique
-  C. [ ] Traitement anticoagulant curatif
-  D. [ ] Amiodarone
-  E. [ ] Abstention thérapeutique et surveillance
+  A. Pose de pacemaker double chambre
+  B. Arrêt de l’inhibiteur calcique
+  C. Traitement anticoagulant curatif
+  D. Amiodarone
+  E. Abstention thérapeutique et surveillance
 ** Question 14 - Question à choix multiple
 Finalement, les examens montrent une clairance de créatinine à 27 ml/min. Vous récupérez une valeur un an auparavant à
 29 ml/min dont l’origine vasculaire et diabétique avait été retenue. Quel impact sur votre traitement en cours ou à venir
 apporte cette information ?
-  A. [ ] Contre-indication à un traitement par inhibiteur de l’enzyme de conversion de l’angiotensine
-  B. [ ] Contre-indication à un traitement par bisphosphonates si indiqué
-  C. [ ] Contre-indication à un régime hyperprotidique
-  D. [ ] Contre-indication à un traitement par denosumab si indiqué
-  E. [ ] Contre-indication à la pravastatine
+  A. Contre-indication à un traitement par inhibiteur de l’enzyme de conversion de l’angiotensine
+  B. Contre-indication à un traitement par bisphosphonates si indiqué
+  C. Contre-indication à un régime hyperprotidique
+  D. Contre-indication à un traitement par denosumab si indiqué
+  E. Contre-indication à la pravastatine
 * HOLD DP4 :noexport:
 Patient âgé de 63 ans, fumeur actif 45 paquets-années, consulte pour une altération de l’état général avec une perte de
 poids de 8 Kg en 4 mois. Il est retraité depuis 3 ans alors qu’il était infirmier dans un service de maladies infectieuses dans
@@ -444,11 +554,11 @@ stade II MRC.
 ** Question 1 - Question à choix multiple
 Ce patient consommait 1 verre de whisky par jour et 75 cl de vin par jour. Il est sevré depuis 3 mois à la suite de la
 découverte d’une cirrhose. A propos de la cirrhose, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] A une définition histologique
-  B. [ ] Est une cicatrice fibreuse du parenchyme hépatique
-  C. [ ] Est une maladie irréversible
-  D. [ ] Peut être asymptomatique
-  E. [ ] Peut être diagnostiquée sans biopsie hépatique
+  A. A une définition histologique
+  B. Est une cicatrice fibreuse du parenchyme hépatique
+  C. Est une maladie irréversible
+  D. Peut être asymptomatique
+  E. Peut être diagnostiquée sans biopsie hépatique
 ** Question 2 - Question à choix multiple
 L’examen clinique est sans particularité. Il n’a pas de signe d’hypertension portale, pas de signe de sepsis sévère. Le bilan
 biologique montre : Na=135mmol/L, K=3,7mmol/L, CRP=15mg/L, créatinine=80µmol/L, urée=6,1mmol/L, Hb=137g/L,
@@ -457,94 +567,94 @@ gammaGT 236=UI/L.
 Le patient a des expectorations quotidiennes abondantes. Devant la dyspnée, vous réalisez les gaz du sang artériels en air
 ambiant : pH=7,49, PCO2=29mmHg, PO2=75mmHg, HCO3=22mmol/L. Quelle est votre interprétation (une seule réponse)
 ?
-  A. [ ] Alcalose métabolique compensée
-  B. [ ] Alcalose métabolique décompensée
-  C. [ ] Alcalose mixte décompensée
-  D. [ ] Alcalose respiratoire compensée
-  E. [ ] Alcalose respiratoire décompensée
+  A. Alcalose métabolique compensée
+  B. Alcalose métabolique décompensée
+  C. Alcalose mixte décompensée
+  D. Alcalose respiratoire compensée
+  E. Alcalose respiratoire décompensée
 ** Question 3 - Question à choix multiple
 La radiographie pulmonaire montre une opacité basale gauche. Vous complétez par la réalisation d’un scanner thoracique.
 Quelle(s) est (sont) la (les) proposition(s) vraie(s) ?
-  A. [ ] Le repère A correspond à la crosse de l’aorte
-  B. [ ] Le repère B correspond au tronc de l’artère pulmonaire
-  C. [ ] Le repère C correspond à la bronche souche gauche
-  D. [ ] Le repère D correspond à l’œsophage
-  E. [ ] Le repère E correspond à la veine cave inférieure
+  A. Le repère A correspond à la crosse de l’aorte
+  B. Le repère B correspond au tronc de l’artère pulmonaire
+  C. Le repère C correspond à la bronche souche gauche
+  D. Le repère D correspond à l’œsophage
+  E. Le repère E correspond à la veine cave inférieure
 ** Question 4 - Question à choix multiple
 Les fenêtres médiastinales montrent des adénopathies. Voici une coupe de tomodensitométrie thoracique en fenêtre
 parenchymateuse. Qu’observez-vous ? (une ou plusieurs réponses exactes)
-  A. [ ] Des micronodules
-  B. [ ] Des réticulations intralobulaires
-  C. [ ] Du rayon de miel
-  D. [ ] Un aspect en « lâcher de ballons »
-  E. [ ] Un nodule d’environ 3 cm
+  A. Des micronodules
+  B. Des réticulations intralobulaires
+  C. Du rayon de miel
+  D. Un aspect en « lâcher de ballons »
+  E. Un nodule d’environ 3 cm
 ** Question 5 - Question à choix multiple
 Quelle(s) hypothèse(s) diagnostique(s) peut (peuvent) expliquer l’ensemble du tableau clinico-radiologique thoracique ?
-  A. [ ] Bronchiolite diffuse
-  B. [ ] Carcinome pulmonaire stade I
-  C. [ ] Lymphangite carcinomateuse
-  D. [ ] Pneumopathie d’hypersensibilité
-  E. [ ] Tuberculose pulmonaire
+  A. Bronchiolite diffuse
+  B. Carcinome pulmonaire stade I
+  C. Lymphangite carcinomateuse
+  D. Pneumopathie d’hypersensibilité
+  E. Tuberculose pulmonaire
 ** Question 6 - Question à choix multiple
 Vous suspectez une miliaire tuberculeuse. Comment réalisez-vous le diagnostic en première intention (une ou plusieurs
 bonnes réponses) ?
-  A. [ ] Examen des crachats adressé en mycobactériologie à la recherche de bacilles acido-alcoolo-résistants (BAAR)
-  B. [ ] Examen cytobactériologique des urines adressé en mycobactériologie à la recherche de bacilles acido-alcoolorésistants (BAAR)
-  C. [ ] Lavage broncho-alvéolaire adressé en mycobactériologie à la recherche de bacilles acido-alcoolo-résistants (BAAR)
-  D. [ ] Ponction ganglionnaire par écho-endoscopie bronchique adressé en mycobactériologie à la recherche de bacilles acidoalcoolo-résistants (BAAR)
-  E. [ ] Ponction transthoracique guidée par scanner de la masse adressé en mycobactériologie à la recherche de bacilles
+  A. Examen des crachats adressé en mycobactériologie à la recherche de bacilles acido-alcoolo-résistants (BAAR)
+  B. Examen cytobactériologique des urines adressé en mycobactériologie à la recherche de bacilles acido-alcoolorésistants (BAAR)
+  C. Lavage broncho-alvéolaire adressé en mycobactériologie à la recherche de bacilles acido-alcoolo-résistants (BAAR)
+  D. Ponction ganglionnaire par écho-endoscopie bronchique adressé en mycobactériologie à la recherche de bacilles acidoalcoolo-résistants (BAAR)
+  E. Ponction transthoracique guidée par scanner de la masse adressé en mycobactériologie à la recherche de bacilles
 acido-alcoolo-résistants (BAAR)
 ** Question 7 - Question à choix multiple
 L’analyse des expectorations montre 10 à 100 BAAR/champ au direct. Vous retenez le diagnostic de miliaire tuberculose à
 M. tuberculosis. Quel(s) examen(s) doi(ven)t être pris en considération dans votre bilan préthérapeutique ?
-  A. [ ] Bilan hépatique
-  B. [ ] Créatinémie
-  C. [ ] Examen ophtalmologique
-  D. [ ] Exploration fonctionnelle respiratoire
-  E. [ ] Sérologie VIH
+  A. Bilan hépatique
+  B. Créatinémie
+  C. Examen ophtalmologique
+  D. Exploration fonctionnelle respiratoire
+  E. Sérologie VIH
 ** Question 8 - Question à choix multiple
 Quel(s) traitement(s) antituberculeux, allez-vous proposer en première intention à votre patient ?
-  A. [ ] Isoniazide
-  B. [ ] Streptomycine
-  C. [ ] Ethambutol
-  D. [ ] Rifampicine
-  E. [ ] Pyrazinamide
+  A. Isoniazide
+  B. Streptomycine
+  C. Ethambutol
+  D. Rifampicine
+  E. Pyrazinamide
 ** Question 9 - Question à choix multiple
 Quelle(s) est (sont) l'(les) autre(s) mesure(s) à mettre en place chez ce patient ?
-  A. [ ] Corticothérapie inhalée
-  B. [ ] Demander la prise en charge à 100 % au titre de l’affection longue durée
-  C. [ ] Isolement respiratoire
-  D. [ ] Notification anonyme à l’agence régionale de santé (ARS)
-  E. [ ] Notification anonyme au centre de lutte antituberculeuse (CLAT) du département du domicile du cas
+  A. Corticothérapie inhalée
+  B. Demander la prise en charge à 100 % au titre de l’affection longue durée
+  C. Isolement respiratoire
+  D. Notification anonyme à l’agence régionale de santé (ARS)
+  E. Notification anonyme au centre de lutte antituberculeuse (CLAT) du département du domicile du cas
 ** Question 10 - Question à choix multiple
 Vous débutez une association d’isoniazide, de rifampicine et d’éthambutol. Après 2 semaines, le patient quitte l’hôpital.
 Vous le suivez tous les mois en consultation, mais vous avez des doutes sur l’observance du traitement par le patient.
 Comment surveillez-vous son observance ? (une
 ou plusieurs réponses exactes)
-  A. [ ] Coloration des dents
-  B. [ ] Coloration des urines
-  C. [ ] Dosage de l’uricémie
-  D. [ ] Dosage des transaminases
-  E. [ ] Vision des couleurs
+  A. Coloration des dents
+  B. Coloration des urines
+  C. Dosage de l’uricémie
+  D. Dosage des transaminases
+  E. Vision des couleurs
 ** Question 11 - Question à choix multiple
 Le patient se pose la question du rôle de sa profession dans la survenue de la tuberculose. Vous consultez le tableau des
 maladies professionnelles 40b du régime général.
 Ce tableau indique que (une ou plusieurs réponses exactes) :
-  A. [ ] L’affection de votre patient est dans la liste des affections pouvant être reconnue en maladie professionnelle
-  B. [ ] Le délai de prise en charge indique que le patient doit avoir été exposé plus de 6 mois pour être reconnu en maladie
+  A. L’affection de votre patient est dans la liste des affections pouvant être reconnue en maladie professionnelle
+  B. Le délai de prise en charge indique que le patient doit avoir été exposé plus de 6 mois pour être reconnu en maladie
 professionnelle
-  C. [ ] Le métier de votre patient est dans la liste limitative des travaux.
-  D. [ ] Le patient peut être directement reconnu en maladie professionnelle
-  E. [ ] La demande de reconnaissance en maladie professionnelle devra passer devant le comité régional de reconnaissance
+  C. Le métier de votre patient est dans la liste limitative des travaux.
+  D. Le patient peut être directement reconnu en maladie professionnelle
+  E. La demande de reconnaissance en maladie professionnelle devra passer devant le comité régional de reconnaissance
 des maladies professionnelles
 ** Question 12 - Question à choix multiple
 Le patient vous demande de quel avantage il peut bénéficier en cas d’une éventuelle reconnaissance en maladie
 professionnelle ? (une ou plusieurs bonnes réponses)
-  A. [ ] Une impossibilité de licenciement
-  B. [ ] Une indemnisation du préjudice des cas secondaires familiaux éventuels
-  C. [ ] Une meilleure indemnisation de l’arrêt maladie
-  D. [ ] Une prise en charge à 100% des traitements
-  E. [ ] Une rente en fonction du dernier salaire et du taux d’incapacité
+  A. Une impossibilité de licenciement
+  B. Une indemnisation du préjudice des cas secondaires familiaux éventuels
+  C. Une meilleure indemnisation de l’arrêt maladie
+  D. Une prise en charge à 100% des traitements
+  E. Une rente en fonction du dernier salaire et du taux d’incapacité
 ** Question 13 - Question à choix multiple
 Après 9 mois de traitement antituberculeux, le patient n’a plus de fièvre. Il a pris 6 Kg de poids. Il ne tousse plus. Le seul
 symptôme résiduel est une dyspnée qui s’aggrave progressivement. Le patient doit s’arrêter lors de la marche en terrain
@@ -577,21 +687,21 @@ DLCO
 DLCO/VA
 50
 Quelle est votre interprétation de ces explorations fonctionnelles respiratoires (une ou plusieurs bonnes réponses) ?
-  A. [ ] Syndrome ventilatoire obstructif
-  B. [ ] Syndrome ventilatoire restrictif
-  C. [ ] Distension thoracique
-  D. [ ] Trouble de la diffusion du monoxyde de carbone
-  E. [ ] Explorations fonctionnelles normales
+  A. Syndrome ventilatoire obstructif
+  B. Syndrome ventilatoire restrictif
+  C. Distension thoracique
+  D. Trouble de la diffusion du monoxyde de carbone
+  E. Explorations fonctionnelles normales
 ** Question 14 - Question à choix multiple
 La tomodensitométrie thoracique ne retrouve plus les anomalies précédemment décrites et le parenchyme pulmonaire
 parait normal. Par contre il existe une dilatation anormale des artères pulmonaires. Vous suspectez une hypertension
 pulmonaire associée à une hypertension portale. Dans quel groupe de la classification clinique internationale des
 Hypertensions Pulmonaires allez-vous classer ce patient ?
-  A. [ ] Groupe 1
-  B. [ ] Groupe 2
-  C. [ ] Groupe 3
-  D. [ ] Groupe 4
-  E. [ ] Groupe 5
+  A. Groupe 1
+  B. Groupe 2
+  C. Groupe 3
+  D. Groupe 4
+  E. Groupe 5
 * HOLD DP5 :noexport:
 Une femme de 87 ans est amenée aux urgences par les pompiers suite à une chute à son domicile. La patiente est restée
 au sol pendant une durée estimée à 4 heures. Elle présente une impotence fonctionnelle du membre inférieur droit avec
@@ -602,121 +712,121 @@ une appendicectomie à l’âge de 12 ans, un diabète non insulino dépendant t
 plusieurs chutes au cours des derniers mois.
 ** Question 1 - Question à choix multiple
 Sur les radiographies du poignet pratiquées aux urgences, quelle(s) est(sont) la(les) proposition(s) exactes(s) ?
-  A. [ ] La glène radiale est antéversée
-  B. [ ] La fracture du radius est extra-articulaire
-  C. [ ] La ligne bistyloïdienne est verticalisée
-  D. [ ] Il existe un excès de longueur du radius par rapport à l’ulna
+  A. La glène radiale est antéversée
+  B. La fracture du radius est extra-articulaire
+  C. La ligne bistyloïdienne est verticalisée
+  D. Il existe un excès de longueur du radius par rapport à l’ulna
 Proposition E
 La fracture du radius a un siège métaphysaire
 ** Question 2 - Question à choix multiple
 A l’examen clinique, quel(s) élément(s) retrouvez-vous si la fracture du radius est non compliquée ?
-  A. [ ] Une déformation de face en baïonnette médiale
-  B. [ ] Une déformation en dos de fourchette
-  C. [ ] Une hypoesthésie de la pulpe des 3 premiers doigts
-  D. [ ] Une douleur élective de la tabatière anatomique
-  E. [ ] Une saillie de la styloïde de l’ulna
+  A. Une déformation de face en baïonnette médiale
+  B. Une déformation en dos de fourchette
+  C. Une hypoesthésie de la pulpe des 3 premiers doigts
+  D. Une douleur élective de la tabatière anatomique
+  E. Une saillie de la styloïde de l’ulna
 ** Question 3 - Question à choix multiple
 Lors de l’examen clinique initial, la patiente ne parvient pas à effectuer une flexion active de l’articulation interphalangienne
 du pouce. Quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] Ceci peut être dû à une compression du nerf médian au poignet
-  B. [ ] Ceci doit évoquer une autre cause que la fracture elle-même
-  C. [ ] Ceci peut être dû à une paralysie du long abducteur du pouce
-  D. [ ] Ceci peut être dû à une paralysie de l’opposant du pouce
-  E. [ ] Ceci peut être dû à une atteinte du tendon du long fléchisseur du pouce
+  A. Ceci peut être dû à une compression du nerf médian au poignet
+  B. Ceci doit évoquer une autre cause que la fracture elle-même
+  C. Ceci peut être dû à une paralysie du long abducteur du pouce
+  D. Ceci peut être dû à une paralysie de l’opposant du pouce
+  E. Ceci peut être dû à une atteinte du tendon du long fléchisseur du pouce
 ** Question 4 - Question à choix multiple
 Quel(s) examen(s) d’imagerie prescrit(s) en première intention vous parait(paraissent) pertinent(s) pour son impotence
 fonctionnelle du membre inférieur droit ?
-  A. [ ] Tomodensitométrie du bassin et de la hanche droite
-  B. [ ] Radiographie du bassin de face
-  C. [ ] Radiographie de la hanche droite de profil
-  D. [ ] Scintigraphie osseuse
-  E. [ ] Angio-tomodensitométrie du bassin et du membre inférieur droit
+  A. Tomodensitométrie du bassin et de la hanche droite
+  B. Radiographie du bassin de face
+  C. Radiographie de la hanche droite de profil
+  D. Scintigraphie osseuse
+  E. Angio-tomodensitométrie du bassin et du membre inférieur droit
 ** Question 5 - Question à choix multiple
 Au vu de la radiographie du bassin ci-jointe, quelle est la proposition exacte ?
-  A. [ ] Il s’agit d’une fracture de type 1 selon la classification de Garden
-  B. [ ] Il s’agit d’une fracture de type 2 selon la classification de Garden
-  C. [ ] Il s’agit d’une fracture de type 3 selon la classification de Garden
-  D. [ ] Il s’agit d’une fracture de type 4 selon la classification de Garden
-  E. [ ] La classification de Garden ne s’applique pas pour ce type de fracture
+  A. Il s’agit d’une fracture de type 1 selon la classification de Garden
+  B. Il s’agit d’une fracture de type 2 selon la classification de Garden
+  C. Il s’agit d’une fracture de type 3 selon la classification de Garden
+  D. Il s’agit d’une fracture de type 4 selon la classification de Garden
+  E. La classification de Garden ne s’applique pas pour ce type de fracture
 ** Question 6 - Question à choix multiple
 Au vu de la radiographie du bassin ci-jointe, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] Il existe une déformation en coxa vara
-  B. [ ] Il existe des lacunes à « l’emporte-pièce » de l’aile iliaque gauche
-  C. [ ] Il s’agit d’une fracture sous-capitale
-  D. [ ] Il s’agit d’une fracture du massif trochantérien
-  E. [ ] Il existe une perte de congruence de l’articulation coxo-fémorale droite
+  A. Il existe une déformation en coxa vara
+  B. Il existe des lacunes à « l’emporte-pièce » de l’aile iliaque gauche
+  C. Il s’agit d’une fracture sous-capitale
+  D. Il s’agit d’une fracture du massif trochantérien
+  E. Il existe une perte de congruence de l’articulation coxo-fémorale droite
 ** Question 7 - Question à choix multiple
 Vous expliquez à la patiente qu’elle présente une fracture du fémur proximal qui nécessite une intervention chirurgicale. La
 patiente est réticente à une intervention par crainte d’éventuelles complications.
 Quelle(s) proposition(s) est(sont)
 exacte(s) ?
-  A. [ ] En l’absence d’intervention, la consolidation de la fracture est possible
-  B. [ ] En l’absence d’intervention, il existe un risque majeur de décès lié à des complications du décubitus
-  C. [ ] L’intervention est nécessaire pour permettre une verticalisation rapide de la patiente
-  D. [ ] L’augmentation du délai avant l’intervention modifie la morbi-mortalité dans les suites de celle-ci
-  E. [ ] Une intervention chirurgicale de stabilisation permet de lutter efficacement contre la douleur
+  A. En l’absence d’intervention, la consolidation de la fracture est possible
+  B. En l’absence d’intervention, il existe un risque majeur de décès lié à des complications du décubitus
+  C. L’intervention est nécessaire pour permettre une verticalisation rapide de la patiente
+  D. L’augmentation du délai avant l’intervention modifie la morbi-mortalité dans les suites de celle-ci
+  E. Une intervention chirurgicale de stabilisation permet de lutter efficacement contre la douleur
 ** Question 8 - Question à choix multiple
 Concernant l’anesthésie, que pouvez-vous affirmer à cette patiente ? (une ou plusieurs réponses exactes)
-  A. [ ] Le choix entre l’anesthésie générale ou locorégionale n’a pas de véritable influence sur la morbi-mortalité postopératoire
-  B. [ ] Il faudra obligatoirement poser un cathéter veineux et que le patient reste à jeun qu’il s’agisse d’une anesthésie
+  A. Le choix entre l’anesthésie générale ou locorégionale n’a pas de véritable influence sur la morbi-mortalité postopératoire
+  B. Il faudra obligatoirement poser un cathéter veineux et que le patient reste à jeun qu’il s’agisse d’une anesthésie
 générale ou locorégionale
-  C. [ ] Il n’existe pas de risque cardiaque sous anesthésie locorégionale
-  D. [ ] Si l’anesthésiste opte pour une anesthésie locorégionale, la patiente n’est pas obligée de rester en salle de réveil
-  E. [ ] Plusieurs antalgiques sont habituellement utilisés de manière multimodale pour réduire la consommation de morphine
+  C. Il n’existe pas de risque cardiaque sous anesthésie locorégionale
+  D. Si l’anesthésiste opte pour une anesthésie locorégionale, la patiente n’est pas obligée de rester en salle de réveil
+  E. Plusieurs antalgiques sont habituellement utilisés de manière multimodale pour réduire la consommation de morphine
 en postopératoire
 ** Question 9 - Question à choix multiple
 Avant sa chute, la patiente se déplaçait sans aide technique au domicile. Depuis quelques mois, elle utilisait une canne
 pour se promener et lorsqu’elle effectuait ses courses, elle s’aidait d’un rollator. Quelle(s) est(sont) la(les) proposition(s)
 exacte(s) ?
-  A. [ ] Le score de mobilité de Parker tient compte de la marche à l’extérieur du domicile
-  B. [ ] Le score de mobilité de Parker est un score de qualité de vie
-  C. [ ] Le score de mobilité de Parker s’échelonne entre 0 et 9
-  D. [ ] Le score de mobilité de Parker tient compte de la localisation du trait de fracture
-  E. [ ] Après une fracture de l’extrémité supérieure du fémur, la récupération du score de mobilité de Parker antérieur est la
+  A. Le score de mobilité de Parker tient compte de la marche à l’extérieur du domicile
+  B. Le score de mobilité de Parker est un score de qualité de vie
+  C. Le score de mobilité de Parker s’échelonne entre 0 et 9
+  D. Le score de mobilité de Parker tient compte de la localisation du trait de fracture
+  E. Après une fracture de l’extrémité supérieure du fémur, la récupération du score de mobilité de Parker antérieur est la
 règle
 ** Question 10 - Question à choix multiple
 Parmi les éléments suivants, le(s)quel(s) conduit(conduisent) à retarder la prise en charge chirurgicale de la patiente ?
-  A. [ ] Le refus de la patiente d’être opérée
-  B. [ ] Un traitement antiagrégant plaquettaire
-  C. [ ] Une ouverture cutanée en regard de la styloïde ulnaire
-  D. [ ] Une hyperkaliémie accompagnée de modifications à l’ECG
-  E. [ ] Un ulcère veineux de la jambe droite
+  A. Le refus de la patiente d’être opérée
+  B. Un traitement antiagrégant plaquettaire
+  C. Une ouverture cutanée en regard de la styloïde ulnaire
+  D. Une hyperkaliémie accompagnée de modifications à l’ECG
+  E. Un ulcère veineux de la jambe droite
 ** Question 11 - Question à choix multiple
 Chez cette patiente, vous avez opté pour une ostéosynthèse du fémur proximal à l’aide d’un matériel intramédullaire. Dans
 les suites d’une telle intervention, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] Il existe un risque important de luxation
-  B. [ ] Le risque infectieux au niveau du site opératoire est faible
-  C. [ ] La complication principale est le cal vicieux
-  D. [ ] Si au bout d'un mois, la fracture n’est pas consolidée, il s’agit d’un retard de consolidation
-  E. [ ] Si au bout de 8 mois, la fracture n’est pas consolidée, il s’agit d’une pseudarthrose
+  A. Il existe un risque important de luxation
+  B. Le risque infectieux au niveau du site opératoire est faible
+  C. La complication principale est le cal vicieux
+  D. Si au bout d'un mois, la fracture n’est pas consolidée, il s’agit d’un retard de consolidation
+  E. Si au bout de 8 mois, la fracture n’est pas consolidée, il s’agit d’une pseudarthrose
 ** Question 12 - Question à choix multiple
 5 jours après l’ostéosynthèse, la patiente glisse sur le sol mouillé en se rendant aux toilettes et fait une nouvelle chute. La
 patiente se plaint d’une recrudescence des douleurs au niveau de la hanche droite. Vous effectuez des radiographies du
 bassin et de la hanche droite.
 (a) radiographie de hanche de réduction peropératoire. (b) radiographie actuelle. Quelle(s) est(sont) la(les) proposition(s)
 exacte(s) ?
-  A. [ ] Il existe un déplacement secondaire par rapport aux clichés de réduction peropératoire
-  B. [ ] Il existe une luxation de la hanche droite
+  A. Il existe un déplacement secondaire par rapport aux clichés de réduction peropératoire
+  B. Il existe une luxation de la hanche droite
 Il existe une rupture du matériel
-  D. [ ] Il existe un risque élevé d’ostéonécrose de la tête fémorale
-  E. [ ] Il existe une diminution de l’efficacité d’action de l’iliopsoas
+  D. Il existe un risque élevé d’ostéonécrose de la tête fémorale
+  E. Il existe une diminution de l’efficacité d’action de l’iliopsoas
 ** Question 13 - Question à choix multiple
 Au décours de sa chute, la patiente se plaint également de douleurs rachidiennes que vous situez principalement à la
 jonction thoracolombaire et qui s’accompagnent de douleurs plus diffuses. Une IRM thoraco lombaire est effectuée. Il n’y a
 pas d’anomalie transitionnelle. Au vu de cet examen, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?
-  A. [ ] il existe une déformation du corps vertébral de T12
-  B. [ ] il s’agit d’une séquence en T1
-  C. [ ] il existe un antélisthésis de L4 sur L5
+  A. il existe une déformation du corps vertébral de T12
+  B. il s’agit d’une séquence en T1
+  C. il existe un antélisthésis de L4 sur L5
 la fracture de T12 est récente
-  E. [ ] il existe des signes de dégénérescence discale entre L1 et L2
+  E. il existe des signes de dégénérescence discale entre L1 et L2
 ** Question 14 - Question à choix multiple
 La patiente est réopérée de la hanche droite. Dans les suites de l’intervention, elle présente un état d’agitation. Quel(s)
 élément(s) de l’examen clinique vous semble(ent) important(s) dans la recherche étiologique de cet état d’agitation ?
-  A. [ ] La réalisation d’un toucher rectal
-  B. [ ] La palpation abdominale
-  C. [ ] L’examen des paires crâniennes
-  D. [ ] Une mesure de la glycémie capillaire
-  E. [ ] La réalisation du test de l’horloge
+  A. La réalisation d’un toucher rectal
+  B. La palpation abdominale
+  C. L’examen des paires crâniennes
+  D. Une mesure de la glycémie capillaire
+  E. La réalisation du test de l’horloge
 * HOLD DP6 :noexport:
 Un garçon de 5 mois est amené aux urgences pédiatriques fin septembre par ses parents parce qu’ils trouvent qu’il ne
 respire pas comme d’habitude.
@@ -732,117 +842,117 @@ minute, il a un tirage intercostal modéré et de discrets battements des ailes 
 ** Question 1 - Question à choix multiple
 Parmi les éléments suivants quel(s) est(sont) celui ou ceux qui est(sont) un ou des critère(s) de gravité de bronchiolite
 aiguë chez cet enfant ?
-  A. [ ] sa naissance prématurée
-  B. [ ] le tirage intercostal
-  C. [ ] la fréquence respiratoire
-  D. [ ] la température élevée
-  E. [ ] ses difficultés alimentaires
+  A. sa naissance prématurée
+  B. le tirage intercostal
+  C. la fréquence respiratoire
+  D. la température élevée
+  E. ses difficultés alimentaires
 ** Question 2 - Question à choix multiple
 Chez cet enfant quel(s) est(sont) le ou les examen(s) indispensable(s) ?
-  A. [ ] une PCR multiplex à la recherche de virus respiratoires
-  B. [ ] un test rapide de grippe
-  C. [ ] une radiographie de thorax
-  D. [ ] un gaz du sang artériel
-  E. [ ] une échographie cardiaque
+  A. une PCR multiplex à la recherche de virus respiratoires
+  B. un test rapide de grippe
+  C. une radiographie de thorax
+  D. un gaz du sang artériel
+  E. une échographie cardiaque
 ** Question 3 - Question à choix multiple
 Devant cette radiographie de thorax, quelle(s) est(sont) la ou les réponse(s) exacte(s) ?
-  A. [ ] présence d’une distension thoracique
-  B. [ ] présence d’un épanchement pleural
-  C. [ ] présence d’un pneumomédiastin
-  D. [ ] présence d’une condensation alvéolaire lobaire moyenne
-  E. [ ] l’arc supérieur gauche n’est pas visible
+  A. présence d’une distension thoracique
+  B. présence d’un épanchement pleural
+  C. présence d’un pneumomédiastin
+  D. présence d’une condensation alvéolaire lobaire moyenne
+  E. l’arc supérieur gauche n’est pas visible
 ** Question 4 - Question à choix multiple
 L’enfant est hospitalisé pendant 4 jours pour le traitement de sa bronchiolite compliquée d'un pneumomédiastin. Il a été
 alimenté les deux premiers par sonde nasogastrique; le recours à la perfusion n'a pas été nécessaire. Ses signes
 respiratoires s’améliorent.
 Alors qu’il serait sortant, il présente des vomissements suivis douze heures plus tard d’une diarrhée profuse avec une
 température à 37,3°C. Quelle(s) est (sont) la ou les cause(s) possible(s) de cette diarrhée aiguë ?
-  A. [ ] une infection à adénovirus
-  B. [ ] une infection à norovirus
-  C. [ ] une infection à entérovirus
-  D. [ ] une infection à Clostridium difficile
-  E. [ ] une infection à VRS
+  A. une infection à adénovirus
+  B. une infection à norovirus
+  C. une infection à entérovirus
+  D. une infection à Clostridium difficile
+  E. une infection à VRS
 ** Question 5 - Question à choix multiple
 Concernant l’épisode de gastroentérite aiguë d'origine virale, quel(s) est(sont) le ou les énoncé(s) exact(s) ?
-  A. [ ] il s’agit d’une infection évitable par des précautions "gouttelettes "
-  B. [ ] il s’agit d’une infection nosocomiale certaine
-  C. [ ] le germe responsable de la diarrhée est résistant aux solutés hydro-alcooliques
-  D. [ ] il faut faire une déclaration auprès de l’ARS (agence régionale de santé) de cette infection
-  E. [ ] il s’agit d’une infection manu-portée
+  A. il s’agit d’une infection évitable par des précautions "gouttelettes "
+  B. il s’agit d’une infection nosocomiale certaine
+  C. le germe responsable de la diarrhée est résistant aux solutés hydro-alcooliques
+  D. il faut faire une déclaration auprès de l’ARS (agence régionale de santé) de cette infection
+  E. il s’agit d’une infection manu-portée
 ** Question 6 - Question à choix multiple
 Compte tenu de la sévérité du tableau, une réhydratation intraveineuse est décidée. Un prélèvement sanguin est réalisé au
 moment de la pose de la perfusion. Les résultats de ce bilan sont les suivants : natrémie 125 mmol/l, kaliémie 3,7 mmol/l,
 glycémie 7,4 mmol/l. Quel(s) est(sont) le ou les diagnostic(s) possible(s) chez cet enfant ?
-  A. [ ] mucoviscidose
-  B. [ ] réhydratation orale par de l’eau pure donnée par les parents
-  C. [ ] réhydratation intraveineuse par un soluté pas assez riche en sodium
-  D. [ ] entérocolite ulcéro-nécrosante
-  E. [ ] syndrome hémolytique et urémique
+  A. mucoviscidose
+  B. réhydratation orale par de l’eau pure donnée par les parents
+  C. réhydratation intraveineuse par un soluté pas assez riche en sodium
+  D. entérocolite ulcéro-nécrosante
+  E. syndrome hémolytique et urémique
 ** Question 7 - Question à choix multiple
 A la fin de la pose de la perfusion, l’enfant fait des mouvements cloniques des 4 membres pendant 1 minute. Il n’a pas de
 déficit post critique. Parmi les diagnostics suivants, lequel ou lesquels peut(vent) être envisagé(s) chez cet enfant ?
-  A. [ ] une convulsion fébrile complexe
-  B. [ ] une convulsion occasionnelle liée à l’hyponatrémie
-  C. [ ] une épilepsie de type de syndrome de West
-  D. [ ] une thrombose veineuse cérébrale
-  E. [ ] une méningite à streptocoque B
+  A. une convulsion fébrile complexe
+  B. une convulsion occasionnelle liée à l’hyponatrémie
+  C. une épilepsie de type de syndrome de West
+  D. une thrombose veineuse cérébrale
+  E. une méningite à streptocoque B
 ** Question 8 - Question à choix multiple
 Après quelques jours, son état clinique s'est amélioré et vous préparez la sortie, il pèse 6000 g et en reprenant le carnet de
 santé vous constatez qu'il n'a pas été suivi depuis son arrivée en France et qu'aucune vaccination n'a été effectuée. Vous
 vous inquiétez de son développement psychomoteur. Quelles sont les acquisitions attendues pour son âge ?
-  A. [ ] empile deux cubes
-  B. [ ] répète une syllabe
-  C. [ ] prend les objets avec la pince pouce-index
-  D. [ ] joue avec ses mains
-  E. [ ] rit aux éclats
+  A. empile deux cubes
+  B. répète une syllabe
+  C. prend les objets avec la pince pouce-index
+  D. joue avec ses mains
+  E. rit aux éclats
 ** Question 9 - Question à choix multiple
 Compte-tenu du retard vaccinal et de son âge, parmi les vaccins suivants, quel(s) est(sont) celui ou ceux au(x)quel(s) la
 priorité doit être accordée ?
-  A. [ ] grippe
-  B. [ ] pneumocoque
-  C. [ ] Haemophilus influenzae B
-  D. [ ] méningocoque B
-  E. [ ] rougeole
+  A. grippe
+  B. pneumocoque
+  C. Haemophilus influenzae B
+  D. méningocoque B
+  E. rougeole
 ** Question 10 - Question à choix multiple
 Avant la sortie, parmi les conseils alimentaires suivants lequel ou lesquels donnez-vous aux parents ?
-  A. [ ] utiliser des biberons stérilisés
-  B. [ ] les biberons peuvent être préparés avec de l'eau du robinet
-  C. [ ] en cas d'antécédents familiaux d'allergie, l'introduction de l'arachide doit être différée
-  D. [ ] le lait de vache pourra remplacer le lait infantile à partir de l'âge de 1 an
-  E. [ ] il faudra donner 5 fruits et légumes par jour 1 mois après le début de la diversification
+  A. utiliser des biberons stérilisés
+  B. les biberons peuvent être préparés avec de l'eau du robinet
+  C. en cas d'antécédents familiaux d'allergie, l'introduction de l'arachide doit être différée
+  D. le lait de vache pourra remplacer le lait infantile à partir de l'âge de 1 an
+  E. il faudra donner 5 fruits et légumes par jour 1 mois après le début de la diversification
 ** Question 11 - Question à choix multiple
 Vous le revoyez 2 mois après pour un nouvel épisode de gêne respiratoire. Les parents vous disent qu’il est resté
 encombré et tousse depuis son dernier épisode. Son poids est de 6100 g. Quel(s) est(sont) le(s) diagnostic(s) possible(s)
 compte tenu de l’histoire de cet enfant ?
-  A. [ ] asthme du nourrisson
-  B. [ ] mucoviscidose
-  C. [ ] coarctation de l'aorte
-  D. [ ] déficit immunitaire
-  E. [ ] oesophagite à éosinophile
+  A. asthme du nourrisson
+  B. mucoviscidose
+  C. coarctation de l'aorte
+  D. déficit immunitaire
+  E. oesophagite à éosinophile
 ** Question 12 - Question à choix multiple
 Vous suspectez un déficit immunitaire. Si ce diagnostic était confirmé, quel(s) vaccin(s) qui serai(en)t contre-indiqué(s)
 chez cet enfant ?
-  A. [ ] grippe injectable
-  B. [ ] varicelle
-  C. [ ] pneumocoque
-  D. [ ] méningocoque C
-  E. [ ] hépatite B
+  A. grippe injectable
+  B. varicelle
+  C. pneumocoque
+  D. méningocoque C
+  E. hépatite B
 ** Question 13 - Question à choix multiple
 Aucun dépistage néonatal n’a pas été proposé à cet enfant. Pour les enfants nés dans les maternités françaises, le
 dépistage néonatal de la mucoviscidose :
-  A. [ ] nécessite un consentement signé des parents pour la recherche génétique éventuelle
-  B. [ ] est proposé au premier jour de vie en cas de retard à l’émission du méconium
-  C. [ ] est proposé au troisième jour de vie
-  D. [ ] consiste en l’analyse du gène CFTR lorsque le dosage de la Trypsine immuno réactive est inférieur au seuil de
+  A. nécessite un consentement signé des parents pour la recherche génétique éventuelle
+  B. est proposé au premier jour de vie en cas de retard à l’émission du méconium
+  C. est proposé au troisième jour de vie
+  D. consiste en l’analyse du gène CFTR lorsque le dosage de la Trypsine immuno réactive est inférieur au seuil de
 positivité
-  E. [ ] est sensible mais peu spécifique
+  E. est sensible mais peu spécifique
 ** Question 14 - Question à choix multiple :noexport:
 Cet enfant présente une mutation homozygote deltaF508.
 Quelle prise en charge mettez-vous en oeuvre ?
-  A. [ ] séances de kinésithérapie respiratoire quotidiennes
-  B. [ ] alimentation normale
-  C. [ ] interruption de l'allaitement maternel
-  D. [ ] supplémentation orale de vitamines liposolubles
-  E. [ ] calendrier vaccinal standard
+  A. séances de kinésithérapie respiratoire quotidiennes
+  B. alimentation normale
+  C. interruption de l'allaitement maternel
+  D. supplémentation orale de vitamines liposolubles
+  E. calendrier vaccinal standard
 --- Fin de copie ---
 
