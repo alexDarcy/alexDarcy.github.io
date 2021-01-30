@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Génétique</title>
+<meta name="author" content="Alexis"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Génétique</h1><h2 class="author">Alexis</h2>
+</section>
+<section>
+<section id="slide-org92c35ca">
+<h2 id="org92c35ca">Chap 5 QCM 1</h2>
+
+<div id="org0e2ee49" class="figure">
+<p><img src="./img/arbre_hurler.png" alt="arbre_hurler.png" width="40%" />
+</p>
+</div>
+
+<p>
+Les couples A-B et C-D vous consultent pour un conseil génétique. La sœur de Mme B et de Mr C était atteinte d&rsquo;une maladie de Hurler. Il s&rsquo;agit d&rsquo;une maladie récessive autosomique qui atteint un enfant sur 90 000 naissances (1/90 000)
+Concernant le risque de Mme B d&rsquo;être hétérozygote pour la maladie de Hurler, quelle(s) proposition(s) est (sont) exacte(s) ?
+</p>
+<ol>
+<li>Le risque pour Mme B d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/2</li>
+<li class="fragment highlight-green">Le risque pour Mme B d&rsquo;être hétérozygote pour la maladie de Hurler est de 2/3</li>
+<li>Le risque pour Mme B d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/4</li>
+<li>Le risque pour Mme B d&rsquo;être hétérozygote pour la maladie de Hurler est celui de la population générale</li>
+<li class="fragment highlight-green">Ce risque est indépendant du sexe de l&rsquo;individu</li>
+
+</ol>
+
+
+<div id="org64d19ea" class="figure">
+<p><img src="./img/autosomique_recesif.png" alt="autosomique_recesif.png" width="30%" class="fragment (t)" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org6f1748e">
+<h2 id="org6f1748e">Chap 5 QCM 2</h2>
+<p>
+Concernant le risque de Mr C et Mme D d&rsquo;être hétérozygote pour la maladie de Hurler, quelle(s) proposition(s) est (sont) exacte(s) ?
+</p>
+<ol>
+<li>Le risque pour Mr C d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/4</li>
+<li class="fragment highlight-green">Le risque pour Mr C d&rsquo;être hétérozygote pour la maladie de Hurler est de 2/3</li>
+<li class="fragment highlight-green">Le risque pour Mme D d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/4</li>
+<li>Le risque pour Mme D d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/3</li>
+<li>Le risque pour Mme D d&rsquo;être hétérozygote pour la maladie de Hurler est de 1/8</li>
+
+</ol>
+
+
+<div id="org35c09b6" class="figure">
+<p><img src="./img/heterozygote_autosomique_recesif.png" alt="heterozygote_autosomique_recesif.png" width="40%" class="fragment (t)" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb03d603">
+<h2 id="orgb03d603">Chap 5 QCS 1</h2>
+<p>
+En vous servant de la loi de Hardy-Weinberg, quel est le risque que Mr A soit hétérozygote pour la maladie de Hurler ?
+</p>
+<ol>
+<li>1/75</li>
+<li>1/600</li>
+<li>1/300</li>
+<li class="fragment highlight-green">1/150</li>
+<li>1/200</li>
+
+</ol>
+
+<div id="org855bf71" class="figure">
+<p><img src="./img/hardy-weinberg.png" alt="hardy-weinberg.png" width="40%" />
+</p>
+</div>
+
+
+<p class="fragment (t)">
+\(q^2 = \frac{1}{90 000}\) donc \(q = \frac{1}{300}\).
+</p>
+
+<p class="fragment (t)">
+Or on veut connaître \(2 p q\) et on sait que \(p = 1 - q \approx 1\)&#x2026;
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org6a54561">
+<h2 id="org6a54561">Chap 5 QCS 2</h2>
+
+<div id="orgfbd2cac" class="figure">
+<p><img src="./img/arbre_hurler.png" alt="arbre_hurler.png" width="40%" />
+</p>
+</div>
+
+<p>
+Quel est le risque pour le couple A-B d&rsquo;avoir un enfant atteint de la maladie de Hurler ?
+</p>
+<ol>
+<li>1/2 400</li>
+<li>1/1 200</li>
+<li>1/1 800</li>
+<li>1/4 800</li>
+<li class="fragment highlight-green">1/900</li>
+
+</ol>
+
+<p class="fragment (t)">
+Probabilité du père de lui passer 1 allèle atteint = \(\frac{1}{150} \times \frac{1}{2}\)
+</p>
+
+<p class="fragment (t)">
+Probabilité de la mère de lui passer 1 allèle atteint = \(\frac{2}{3} \times \frac{1}{2}\)
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org8527800">
+<h2 id="org8527800">Chap 5 QCS QCS 3</h2>
+
+<div id="org10be2c5" class="figure">
+<p><img src="./img/arbre_hurler.png" alt="arbre_hurler.png" width="40%" />
+</p>
+</div>
+
+<p>
+Quel est le risque pour le couple C-D d&rsquo;avoir un enfant atteint de la maladie de Hurler ?
+</p>
+<ol>
+<li>1/128</li>
+<li>1/32</li>
+<li>1/24</li>
+<li>1/12</li>
+<li>1/48</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgea9b5ed">
+<h2 id="orgea9b5ed">Chap 7 QCS 1</h2>
+<p>
+QCS 1
+En salle de naissance, on vous confie un enfant qui présente un retard de croissance important et diverses malformations. Vous évoquez une possible triploïdie. Pour confirmer votre suspicion, vous prescrivez :
+</p>
+<ol>
+<li>Un séquençage de tout le génome</li>
+<li>Un caryotype constitutionnel sur lymphocytes</li>
+<li>Une FISH avec une sonde du chromosome 21</li>
+<li>Un Southern blot</li>
+<li>Aucune de ces techniques</li>
+
+</ol>
+<p>
+FISH vs caryotype
+Techniques d&rsquo;étude
+Le caryotype
+Si le caryotype a été une technique précieuse qui a permis historiquement l&rsquo;identification de la majorité de ces anomalies, c&rsquo;est une technique difficile, sujette à des contraintes pratiques, comprenant plusieurs étapes qui vont du recueil du prélèvement dans des conditions stériles au transport dans du milieu permettant la survie des cellules tumorales jusqu&rsquo;à la mise en culture de ces cellules afin d&rsquo;obtenir des cellules en division et leur analyse au stade de métaphase. Le temps de culture est variable en fonction du type tumoral et du type de culture (en suspension ou culture de cellules adhérentes). Il peut aller de 72 heures à 15 jours.
+Certaines tumeurs sont difficiles à faire pousser in vitro. Les échecs de culture sont assez fréquents. Les fibroblastes du microenvironnement peuvent proliférer mieux que les cellules tumorales.
+Son interprétation pose problème. Comment interpréter un caryotype sans anomalie ? Est-ce une cellule tumorale ou une cellule du microenvironnement ? Certaines anomalies comme les amplifications sont difficiles à identifier. Contrairement aux hémopathies, les tumeurs solides sont souvent polyclonales et leur caryotype peut être extrêmement complexe avec de multiples anomalies non identifiables. Beaucoup de tumeurs sont polyploïdes.
+La sensibilité de cette technique n&rsquo;est pas bonne (10 Mb environ) mais elle permet une analyse globale cellule par cellule des altérations.
+Si le caryotype hématologique est très répandu dans les laboratoires de cytogénétiques, celui des tumeurs solides l&rsquo;est peu. Il est supplanté par les techniques de cytogénétique moléculaire comme la FISH, notamment sur coupe en paraffine et la CGH-array.
+La FISH
+Elle peut être réalisée de première intention ou en complément du caryotype ou du profil moléculaire par CGH-array. Elle peut être réalisée sur préparation cytogénétique, apposition, empreinte, cryocoupe ou coupe en paraffine. Ces dernières ont l&rsquo;avantage de garder l&rsquo;architecture tumorale ce qui peut être précieux en cas de faible cellularité tumorale tout en permettant des études rétrospectives.
+C&rsquo;est la technique de choix pour la recherche d&rsquo;amplification. Mais chaque gène à son critère d&rsquo;amplification et il faut se méfier des fortes polysomies qui peuvent exister dans certaines tumeurs si on utilise des critères n&rsquo;intégrant pas une sonde contrôle.
+La CGH-array
+C&rsquo;est une étude globale du génome qui ne révèle que les variations du nombre de copies du génome, notamment les amplifications par rapport à un niveau médian. Un contrôle histologique de la cellularité tumorale de l&rsquo;échantillon utilisé est nécessaire et généralement, un minimum de 50 % de cellules tumorales est requis. Des techniques se développent pour l&rsquo;utiliser sur paraffine. Elle ne permet de visualiser ni les translocations ni le caractère polyclonal des tumeurs.
+En 2011, un phénomène appelé chromothripsis a été décrit par Stephens et al. [9] suite à une technique de NGS. Il s&rsquo;agit d&rsquo;une catastrophe mitotique qui engendre une multitude de microremaniements (duplication, inversion, délétion) intéressant un (le plus souvent) mais parfois jusqu&rsquo;à quatre chromosomes ou régions chromosomiques. Ils ont estimé la fréquence de ce phénomène dans les tumeurs à 2,5 % (et 5 % des tumeurs osseuses) en regardant le profil moléculaire par CGH-array. La théorie de l&rsquo;accumulation progressive d&rsquo;anomalies est remise en question par ce processus. Cela a été corrélé à un mauvais pronostic dans certaines tumeurs.
+Le Southern blot permet l&rsquo;étude d&rsquo;un fragment d&rsquo;ADN particulier au sein du génome après transfert des fragments d&rsquo;ADN d&rsquo;un gel d&rsquo;électrophorèse sur une membrane
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org0d2f85d">
+<h2 id="org0d2f85d">Chap 13 Question condensée</h2>
+<p>
+QCS 1
+Un hypertélorisme est défini par :
+</p>
+<ol>
+<li>Un rapport distance intercanthale externe/distance intercanthale interne &gt; 1/3</li>
+<li>Un rapport distance intercanthale interne/distance intercanthale externe &gt; 1/3</li>
+<li>Un rapport distance intercanthale interne/distance intercanthale externe &lt; 1/3</li>
+<li>Un rapport distance intercanthale externe/distance intercanthale interne &lt; 1/3</li>
+<li>Un rapport longueur des fentes palpébrales/ distance intercanthale &gt; 1/2</li>
+
+</ol>
+<p>
+QCS 2
+Un télécanthus se définit par :
+</p>
+<ol>
+<li>Des fentes palpébrales étroites</li>
+<li>Une chute de la paupière supérieure</li>
+<li>Un déplacement latéral des canthi internes</li>
+<li>Un déplacement latéral des canthi externes</li>
+<li>Aucun item n&rsquo;est exact</li>
+
+</ol>
+<p>
+QCS 3
+Un hypotélorisme se définit par :
+</p>
+<ol>
+<li>Un repli à l&rsquo;angle interne de l&rsquo;œil</li>
+<li>Une diminution de l&rsquo;écartement entre les yeux</li>
+<li>Un déplacement latéral des canthi internes</li>
+<li>Un déplacement latéral des canthi externes</li>
+<li>Aucun item n&rsquo;est exact</li>
+
+</ol>
+<p>
+QCS 4
+Une clinodactylie se définit par :
+</p>
+<ol>
+<li>Un pouce surnuméraire</li>
+<li>Le blocage d&rsquo;une articulation en flexion</li>
+<li>La présence d&rsquo;un sixième doigt au bord cubital</li>
+<li>Une absence de phalange médiane</li>
+<li>Aucun item n&rsquo;est exact</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgf287027">
+<h2 id="orgf287027">Chap 15</h2>
+<p>
+QCM 1
+Parmi les propositions suivantes concernant le diagnostic prénatal par échographie, laquelle/lesquelles est/sont vraie(s) ?
+</p>
+<ol>
+<li>La mesure de la clarté nucale est obtenue à l&rsquo;échographie de 22 SA</li>
+<li>Un syndrome de Turner peut être révélé par une nuque épaisse</li>
+<li>La découverte d&rsquo;une nuque épaisse justifie la réalisation d&rsquo;un caryotype fœtal</li>
+<li>Une interposition linguale est généralement détectée à l&rsquo;échographie de 12 SA</li>
+<li>Les trois échographies prénatales recommandées à toute femme enceinte sont réalisées à 12, 22 et 32 SA</li>
+
+</ol>
+<p>
+QCM 2
+Parmi les propositions suivantes concernant les prélèvements réalisés en DPN, laquelle/lesquelles est/sont vraie(s) ?
+</p>
+<ol>
+<li>L&rsquo;amniocentèse est réalisée à partir de 12 SA</li>
+<li>L&rsquo;amniocentèse présente un risque de fausse couche de 0,1 %</li>
+<li>La trophocentèse permet l&rsquo;établissement d&rsquo;un caryotype en 24-48 heures</li>
+<li>Une détermination de sexe fœtal sur sang maternel peut être réalisée seulement à partir de 11 SA</li>
+<li>Le caryotype obtenu après culture de villosités choriales est établi à partir de cellules plus proches embryologiquement du fœtus que celles utilisées pour celui de l&rsquo;examen direct</li>
+
+</ol>
+<p>
+QCM 3
+Parmi les propositions suivantes concernant les méthodes de dépistage prénatal, laquelle/lesquelles est/sont vraie(s) ?
+</p>
+<ol>
+<li>La mesure de la clarté nucale est un élément essentiel au dépistage combiné de la trisomie 21</li>
+<li>Le dosage de l&rsquo;α-fœtoprotéine est un élément essentiel au dépistage combiné de la trisomie 21</li>
+<li>Le dépistage combiné est réalisé au premier trimestre de la grossesse</li>
+<li>Le dépistage séquentiel intégré est réalisé au premier trimestre de la grossesse</li>
+<li>L&rsquo;ADN fœtal circulant permet le dépistage de la trisomie 21 sur sang maternel</li>
+
+</ol>
+<p>
+QCM 4
+Parmi les propositions suivantes concernant l&rsquo;identification d&rsquo;une mosaïque 46,XX/47,XX,+21 obtenue à l&rsquo;examen direct après trophocentèse, laquelle/lesquelles est/sont vraie(s) ?
+</p>
+<ol>
+<li>Une contamination par des cellules maternelles doit être suspectée</li>
+<li>Une trisomie 21 en mosaïque vraie doit être suspectée</li>
+<li>Une mosaïque confinée au placenta doit être suspectée</li>
+<li>Une IMG peut être proposée au regard de ces résultats</li>
+<li>Le caryotype permet de distinguer une contamination maternelle d&rsquo;une trisomie 21 en mosaïque vraie</li>
+
+</ol>
+<p>
+QCM 5
+Parmi les propositions suivantes, quelles sont celles justifiant un diagnostic préimplantatoire en France ?
+</p>
+<ol>
+<li>Un couple ayant eu un enfant atteint d&rsquo;une myotonie de Steinert</li>
+<li>Un couple ayant eu un enfant atteint de daltonisme</li>
+<li>Une mère conductrice de myopathie de Duchenne n&rsquo;ayant pas eu d&rsquo;enfant atteint</li>
+<li>Un antécédent de trisomie 21 libre et homogène</li>
+<li>Un couple dont les deux membres ont une mutation p.Phe508del à l&rsquo;état hétérozygote</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org62210cf">
+<h2 id="org62210cf">Chap 16</h2>
+<p>
+QCM
+QCM 1
+Concernant les prélèvements nécessaires pour les dépistages biochimiques :
+</p>
+<ol>
+<li>Il peut être fait durant le 2e jour de vie</li>
+<li>Il peut être fait dans le 3e jour de vie</li>
+<li>Les prélèvements sont collectés sur un buvard</li>
+<li>Les prélèvements sont envoyés à un centre régional</li>
+<li>Une information spécifique est donnée au préalable du prélèvement</li>
+
+</ol>
+<p>
+QCM 2
+Concernant les prélèvements nécessaires pour les dépistages biochimiques :
+</p>
+<ol>
+<li>Un consentement signé est nécessaire pour l&rsquo;évaluation du risque de drépanocytose</li>
+<li>Un consentement signé est nécessaire pour l&rsquo;évaluation du risque de la mucoviscidose</li>
+<li>Un consentement signé est nécessaire pour l&rsquo;évaluation du risque de l&rsquo;hyperplasie surrénale congénitale</li>
+<li>Un enfant dont les deux parents sont nés aux Antilles doit bénéficier du dépistage ciblé de la drépanocytose</li>
+<li>Un enfant dont la mère est née au Maghreb et dont le père n&rsquo;est pas connu doit bénéficier du dépistage ciblé de la drépanocytose</li>
+
+</ol>
+<p>
+QCM 3
+Concernant les maladies dépistées par le dépistage biochimique :
+</p>
+<ol>
+<li>Le taux de faux positif pour l&rsquo;hyperplasie surrénale congénitale est important chez les enfants prématurés</li>
+<li>Le dépistage de l&rsquo;hypothyroïdie en France ne permet pas le dépistage des hypothyroïdies d&rsquo;origine hypophysaire</li>
+<li>Un dosage des hormones thyroïdiennes est nécessaire chez les enfants présentant une malformation médiane de la face</li>
+<li>Les hyperphénylalaninémies sont toutes liées à un déficit de la phénylalanine hydroxylase</li>
+<li>Une malformation génitale est souvent associée aux formes sévères d&rsquo;hyperplasie surrénale congénitale chez les nouveaux nés 46,XX</li>
+
+</ol>
+<p>
+QCM 4
+Concernant le conseil génétique après dépistage :
+</p>
+<ol>
+<li>Le dépistage de la drépanocytose permet de mettre en évidence la plupart des sujets hétérozygotes au locus β-globine</li>
+<li>Le dépistage de la mucoviscidose permet de mettre en évidence la plupart des sujets hétérozygotes au locus CFTR</li>
+<li>Un sujet porteur d&rsquo;une forme classique d&rsquo;hyperplasie surrénale est homozygote ou hétérozygote composite pour des allèles sévères</li>
+<li>Le frère normal d&rsquo;un sujet porteur d&rsquo;une mucoviscidose à 2/3 de risque d&rsquo;être hétérozygote si ses parents sont de phénotype habituel</li>
+<li>Un sujet porteur d&rsquo;une surdité dépistée en période néonatale a le plus souvent un parent sourd</li>
+
+</ol>
+<p>
+QCM 5
+Concernant le dépistage de la surdité :
+</p>
+<ol>
+<li>Il est fondé sur l&rsquo;utilisation des otoémissions acoustiques ou des PEA</li>
+<li>La valeur prédictive négative du test est bonne</li>
+<li>Tous les types de surdité sont détectables en période néonatale</li>
+<li>L&rsquo;objectif principal est de permettre la prise en charge précoce d&rsquo;une surdité sévère permettant la mise en place d&rsquo;une communication verbale si possible</li>
+<li>Le nombre des faux positifs est important</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org0f9d926">
+<h2 id="org0f9d926">Chap 18</h2>
+<p>
+QROC 1
+Citez les principes à respecter lors de la prescription et la réalisation de tests génétiques (examens des caractéristiques génétiques de la personne).
+QROC 2
+Caractéristiques de l&rsquo;information préalable au recueil du consentement.
+QROC 3
+Caractéristiques de l&rsquo;information lors du rendu de résultat.
+QROC 4
+Dans quelles circonstances faut-il mettre en œuvre la démarche d&rsquo;information familiale en génétique ?
+QROC 5
+Lorsqu&rsquo;une affection génétique est diagnostiquée, qui doit informer la parentèle ?
+QROC 6
+Conditions de prescription des tests génétiques pour les mineurs et les majeurs sous tutelle.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orge5bb7f3">
+<h2 id="orge5bb7f3">Chap 19</h2>
+<p>
+QROC 2
+À quelles conditions la loi autorise-t-elle le recours à l&rsquo;interruption de grossesse pour motif médical ?
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org9210a92">
+<h2 id="org9210a92">Chap 22</h2>
+<p>
+QCM 2
+Dans la famille représentée ci-dessous, les garçons II.1 et II.2 sont atteints du syndrome de l&rsquo;X fragile (FXS). On a indiqué le nombre de triplets CGG dans le gène FMR1 pour la mère et les enfants. Indiquez la/les proposition(s) vraie(s) :
+u22-02-9782294745218
+</p>
+<ol>
+<li>Le garçon II.2 présente une déficience intellectuelle plus importante que son frère II.1</li>
+<li>La femme I.2 peut avoir des enfants porteurs d&rsquo;un allèle normal, d&rsquo;une prémutation ou d&rsquo;une mutation complète</li>
+<li>Il n&rsquo;y a pas d&rsquo;autre cas de déficience intellectuelle dans la famille. I.2 rapporte simplement une ataxie chez son père depuis l&rsquo;âge de 65 ans mais cela ne peut pas avoir de lien avec le gène FMR1</li>
+<li>Le génotype de II.4 a été déterminé dans le cadre d&rsquo;un diagnostic prénatal et a mis en évidence chez le fœtus de sexe féminin respectivement 30 et 300 répétitions CGG. Vous annoncez aux parents qu&rsquo;il s&rsquo;agit d&rsquo;une mutation complète et que le pronostic est le même que pour un garçon</li>
+
+</ol>
+<p>
+QCM 3
+Dans la famille représentée ci-dessous, l&rsquo;enfant III.2, fille âgée de 4 ans présente un retard des acquisitions et des troubles du comportement de type autistique qui a fait évoquer un syndrome de l&rsquo;X fragile (FXS) qui a été confirmé par la mise en évidence d&rsquo;une mutation complète dans le gène FMR1. Quelle(s) sont la/les proposition(s) juste(s) ?
+u22-03-9782294745218
+</p>
+<ol>
+<li>La mère ou le père de la patiente III.2 est porteur d&rsquo;une prémutation et leurs sœurs respectives (II.2 et II.5), qui sont enceintes de garçons, sont à risque d&rsquo;être porteuses de la mutation familiale et d&rsquo;avoir un fils atteint de FXS. Vous préconisez de faire réaliser d&rsquo;urgence une analyse génétique chez eux dans le cadre du conseil génétique pour II.2 et II.5</li>
+<li>Vous calculez que si II.3 est prémutée, sa sœur a 75 % de risque de l&rsquo;être également</li>
+<li>Après analyse génétique, il s&rsquo;avère que la mère de la patiente III.2 est porteuse d&rsquo;une prémutation. Cette jeune femme, II.3, a 31 ans et le souhait d&rsquo;un troisième enfant. Vous l&rsquo;informez qu&rsquo;étant porteuse d&rsquo;une prémutation, sa fertilité peut être impactée</li>
+<li>Les enfants des patients porteurs d&rsquo;une mutation du FXS sont tous porteurs d&rsquo;une mutation complète car la mutation ne rétracte pratiquement jamais vers une prémutation ou un allèle normal</li>
+
+</ol>
+<p>
+QCM 4
+QCM 7
+Dans le cas de la myotonie de Steinert, indiquez quelle(s) sont la/les proposition(s) juste(s) ?
+</p>
+<ol>
+<li>C&rsquo;est une maladie responsable d&rsquo;une forme congénitale de maladie musculaire qui est extrêmement rare chez l&rsquo;adulte</li>
+<li>Une cataracte peut être la seule expression clinique de la myotonie de Steinert</li>
+<li>Au sein d&rsquo;une famille, si différentes formes cliniques sont observées, elles ont tendance à s&rsquo;aggraver au cours des générations</li>
+<li>Il n&rsquo;y a pas d&rsquo;atteinte cognitive dans la myotonie de Steinert</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgec4b3a8">
+<h2 id="orgec4b3a8">Chap 23</h2>
+<p>
+QCM 5
+Quelle(s) est/sont la/les caractéristique(s) des cancers du sein associés aux mutations du gène BRCA1 ?
+</p>
+<ol>
+<li>La rapidité évolutive</li>
+<li>Le profil triple négatif vis-à-vis des récepteurs aux œstrogènes à la progestérone et de l&rsquo;amplification d&rsquo;ERBB2</li>
+<li>Une sensibilité particulière aux inhibiteurs de PARP</li>
+<li>Leur présentation multifocale</li>
+<li>Leur bon pronostic</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgfd239fc">
+<h2 id="orgfd239fc">Chap 27</h2>
+<p>
+QCM 1
+Dans le cadre du dépistage de la trisomie 21, le calcul du dépistage combiné proposé au premier trimestre est basé sur :
+</p>
+<ol>
+<li>La mesure de la clarté nucale</li>
+<li>L&rsquo;âge maternel</li>
+<li>L&rsquo;âge paternel</li>
+<li>les antécédents d&rsquo;anomalie chromosomique dans la fratrie</li>
+<li>La présence d&rsquo;une cardiopathie congénitale</li>
+
+</ol>
+<p>
+QCM 2
+Quel suivi régulier doit être proposé aux enfants porteurs d&rsquo;une trisomie 21 ?
+</p>
+<ol>
+<li>ORL</li>
+<li>Ophtalmologique</li>
+<li>Cardiaque</li>
+<li>Urologique</li>
+<li>Orthopédique</li>
+
+</ol>
+<p>
+QCM 3
+Quelle(s) complication(s) est/sont à redouter chez l&rsquo;adulte trisomique 21 ?
+</p>
+<ol>
+<li>Sécheresse cutanée</li>
+<li>Cataracte</li>
+<li>Dysurie</li>
+<li>Syndrome parkinsonien</li>
+<li>Syndrome démentiel de type Alzheimer</li>
+
+</ol>
+<p>
+QCM 4
+Quelles complications sont à redouter durant la première année de vie chez un(e) enfant porteur/euse de trisomie 21 ?
+</p>
+<ol>
+<li>Cataracte</li>
+<li>Leucémie aiguë</li>
+<li>Syndrome de West</li>
+<li>Apnées du sommeil</li>
+<li>Maladie cœliaque</li>
+
+</ol>
+<p>
+QCM 5
+Les enfants porteurs de trisomies 21 sont plus fréquemment soumis à :
+</p>
+<ol>
+<li>Apnées du sommeil</li>
+<li>Infections</li>
+<li>Tumeurs solides</li>
+<li>Instabilité C1-C2</li>
+<li>Diabète</li>
+
+</ol>
+<p>
+QCM 6
+La prise en charge des enfants porteurs de trisomie 21 :
+</p>
+<ol>
+<li>N&rsquo;est pas forcément multidisciplinaire</li>
+<li>Nécessite l&rsquo;investissement des parents</li>
+<li>Nécessite de l&rsquo;orthophonie</li>
+<li>Ne nécessite pas d&rsquo;aide psychologique</li>
+<li>Nécessite un apport vitaminique augmenté</li>
+
+</ol>
+<p>
+QCM 7
+L&rsquo;adulte porteur de trisomie 21 :
+</p>
+<ol>
+<li>Ne peut pas travailler</li>
+<li>Doit rester chez ses parents</li>
+<li>Doit généralement être mis sous une mesure de protection</li>
+<li>Peut intégrer une structure de type ESAT</li>
+<li>Ne peut pas pratiquer de sport</li>
+
+</ol>
+<p>
+QCM 8
+Quelle(s) est(sont) la(les) malformation(s) digestive(s) la(les) plus fréquente(s) chez un nouveau-né trisomique 21 ?
+</p>
+<ol>
+<li>Imperforation anale</li>
+<li>Atrésie duodénale</li>
+<li>Atrésie de l&rsquo;œsophage</li>
+<li>Présence d&rsquo;une rate surnuméraire</li>
+<li>Mésentère commun</li>
+
+</ol>
+<p>
+QCM 9
+Quelles formules chromosomiques sont compatibles avec un tableau clinique de trisomie 21 ?
+</p>
+<ol>
+<li>47,XXY</li>
+<li>45,XX,der(14 ;21)(q10 ;q10)</li>
+<li>45,X</li>
+<li>47,XY,+21</li>
+<li>46,XY,der(14;21)(q10;q10),+21</li>
+
+</ol>
+<p>
+QCS 1
+Le diagnostic de trisomie 21 en période anténatale s&rsquo;effectue avec :
+</p>
+<ol>
+<li>Le dosage des marqueurs sériques maternels</li>
+<li>L&rsquo;échographie</li>
+<li>L&rsquo;âge de la mère</li>
+<li>L&rsquo;âge du père</li>
+<li>Le caryotype fœtal</li>
+
+</ol>
+<p>
+QCS 2
+Quelle est la malformation à rechercher en priorité à la naissance chez un enfant porteur de trisomie 21 ?
+</p>
+<ol>
+<li>Cardiaque</li>
+<li>Digestive</li>
+<li>Rénale</li>
+<li>Cérébrale</li>
+<li>Vertébrale</li>
+
+</ol>
+<p>
+QCS 3
+Quel organisme est chargé de l&rsquo;orientation des enfants trisomiques 21 ?
+</p>
+<ol>
+<li>SESSAD</li>
+<li>CAMSP</li>
+<li>MDPH</li>
+<li>CLIS</li>
+<li>CDES</li>
+
+</ol>
+<p>
+QCS 4
+Quelle complication biologique doit être recherchée régulièrement chez les enfants porteurs de trisomie 21 ?
+</p>
+<ol>
+<li>Hyperuricémie</li>
+<li>Anémie</li>
+<li>Hypothyroïdie</li>
+<li>Hypernatrémie</li>
+<li>Protéinurie</li>
+
+</ol>
+<p>
+QCS 5
+Quelle complication néoplasique est à redouter particulièrement chez les enfants porteurs de trisomie 21 ?
+</p>
+<ol>
+<li>Lymphome</li>
+<li>Sarcome</li>
+<li>Tumeur cérébrale</li>
+<li>Leucémie aiguë myéloïde</li>
+<li>Hépatocarcinome</li>
+
+</ol>
+<p>
+QCS 6
+Quel est le type cytogénétique le plus fréquent de trisomie 21 ?
+</p>
+<ol>
+<li>Trisomie 21 en mosaïque</li>
+<li>Trisomie 21 par translocation robertsonienne</li>
+<li>Trisomie 21 par translocation réciproque</li>
+<li>Trisomie 21 libre et homogène</li>
+<li>Trisomie 21 partielle</li>
+
+</ol>
+<p>
+QCS 7
+Quel est le risque de récurrence de trisomie 21 pour un couple ayant eu un enfant porteur de trisomie 21 secondaire à une mauvaise disjonction d&rsquo;une translocation 14 ; 21 d&rsquo;origine maternelle ?
+</p>
+<ol>
+<li>1 %</li>
+<li>100 %</li>
+<li>50 %</li>
+<li>15 %</li>
+<li>3 %</li>
+
+</ol>
+<p>
+QCS 8
+Quel est le risque de récurrence de trisomie 21 pour un couple ayant eu un enfant porteur d&rsquo;une trisomie 21 libre et homogène ? L&rsquo;âge de la femme est de 30ans :
+</p>
+<ol>
+<li>1 %</li>
+<li>100 %</li>
+<li>50 %</li>
+<li>15 %</li>
+<li>2 %</li>
+
+</ol>
+<p>
+QCS 9
+Trisomie 21 et procréation :
+</p>
+<ol>
+<li>Les adultes porteurs de trisomies 21 sont stériles</li>
+<li>Les enfants nés d&rsquo;hommes trisomiques 21 sont tous porteurs de T21</li>
+<li>Seulement les hommes porteurs de T21 sont stériles</li>
+<li>Les personnes trisomiques 21 (T21 libre) ont un risque théorique de 50 % de conception trisomique 21</li>
+<li>Les femmes trisomiques 21 n&rsquo;ont pas de risque de donner naissance à un enfant trisomique 21</li>
+
+</ol>
+<p>
+QCS 10
+Les enfants porteurs de trisomie 21 :
+</p>
+<ol>
+<li>N&rsquo;acquièrent jamais la marche</li>
+<li>Acquièrent le langage à la même période que les enfants non trisomiques</li>
+<li>Ont une sensibilité à la douleur augmentée</li>
+<li>Ne doivent pas être vaccinés</li>
+<li>Peuvent réagir différemment à certains médicaments</li>
+
+</ol>
+<p>
+QCS 11
+La trisomie 21 :
+</p>
+<ol>
+<li>Touche uniquement les populations européennes</li>
+<li>Est la première cause de déficience intellectuelle d&rsquo;origine génétique</li>
+<li>Est médicalement nommé « mongolisme »</li>
+<li>Est une pathologie acquise</li>
+<li>Ne peut pas être diagnostiqué en période néonatale</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgd8b9298">
+<h2 id="orgd8b9298">Chap 28</h2>
+<p>
+QCM 1
+La mucoviscidose est diagnostiquée classiquement en France :
+</p>
+<ol>
+<li>Sur signes cliniques de bronchopathie chronique dans les premières années de vie</li>
+<li>Au cours du suivi échographique de la grossesse par la découverte d&rsquo;un intestin hyperéchogène</li>
+<li>Par un dépistage systématique des nouveau-nés au troisième jour de vie</li>
+
+</ol>
+<p>
+QCS 1
+La mucoviscidose est une maladie monogénique :
+</p>
+<ol>
+<li>Qui se transmet selon un mode de transmission dominant</li>
+<li>Qui se transmet selon un mode de transmission récessif lié à l&rsquo;X</li>
+<li>Qui se transmet selon un mode de transmission autosomique récessif avec une pénétrance incomplète</li>
+<li>Qui se transmet selon un mode de transmission récessif avec pénétrance complète</li>
+
+</ol>
+<p>
+QCS 2
+Le gène de la mucoviscidose (le gène CFTR) a été cloné :
+</p>
+<ol>
+<li>Grâce à une stratégie gène candidat</li>
+<li>Par une étude réussie de GWAS (pour genome-wide association study)</li>
+<li>Par une étude directe en s&rsquo;appuyant sur la connaissance de la séquence de la protéine</li>
+<li>Par une stratégie de clonage positionnel</li>
+
+</ol>
+<p>
+QCS 3
+La fréquence des porteurs à l&rsquo;état hétérozygote d&rsquo;une mutation dans le gène CFTR dans la population française est de :
+</p>
+<ol>
+<li>1/100</li>
+<li>1/50</li>
+<li>1/30</li>
+<li>1/500</li>
+
+</ol>
+<p>
+QCS 4
+Quel est le risque pour un couple pris au hasard dans la population de donner naissance à un enfant atteint de mucoviscidose ?
+</p>
+<ol>
+<li>1/10 000</li>
+<li>1/4 000</li>
+<li>1/50 000</li>
+
+</ol>
+<p>
+QCS 5
+Quel est le risque a priori de donner naissance à un enfant atteint pour un couple dont l&rsquo;un des conjoints est porteur d&rsquo;une mutation dans le gène CFTR :
+</p>
+<ol>
+<li>1/60</li>
+<li>1/120</li>
+<li>1/240</li>
+<li>1/500</li>
+
+</ol>
+<p>
+QCS 6
+Quel est le risque a priori d&rsquo;être porteur d&rsquo;une mutation dans le gène CFTR pour le frère non malade d&rsquo;un sujet atteint :
+</p>
+<ol>
+<li>1/2</li>
+<li>2/3</li>
+<li>1/4</li>
+<li>1/8</li>
+
+</ol>
+<p>
+QCS 7
+La mutation F508del (p.Phe508del) est la mutation la plus fréquente du gène CFTR. Il s&rsquo;agit :
+</p>
+<ol>
+<li>D&rsquo;une mutation d&rsquo;épissage</li>
+<li>D&rsquo;une mutation troncative</li>
+<li>D&rsquo;une délétion rompant le cadre de lecture</li>
+<li>D&rsquo;une délétion respectant le cadre de lecture</li>
+
+</ol>
+<p>
+QCS 8
+La majorité des 2 000 mutations identifiées dans le gène CFTR responsable de la mucoviscidose sont des mutations :
+</p>
+<ol>
+<li>Faux-sens</li>
+<li>Non-sens</li>
+<li>Des insertions/délétions</li>
+<li>Des expansions de triplets</li>
+<li>Des grands réarrangements génomiques</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org2fbbd7d">
+<h2 id="org2fbbd7d">Chap 29</h2>
+<p>
+QCM 1
+Concernant le syndrome de l&rsquo;X fragile, quelles sont les propositions vraies ?
+</p>
+<ol>
+<li>Il s&rsquo;agit de la forme de déficience intellectuelle d&rsquo;origine génétique la plus fréquente</li>
+<li>La macro-orchidie est un élément essentiel du diagnostic chez les jeunes garçons</li>
+<li>Les patients présentent souvent des troubles du spectre autistique</li>
+<li>Certains patients ont un QI dans les normes</li>
+<li>Les conductrices peuvent présenter une déficience intellectuelle</li>
+
+</ol>
+<p>
+QCM 2
+Concernant les prémutations du gène FMR1, quelles sont les propositions vraies ?
+</p>
+<ol>
+<li>Elles correspondent aux allèles comportant 55 à 250 répétitions CGG</li>
+<li>Le risque qu&rsquo;elles soient transmises par un homme porteur à toutes ses filles est proche de 100 %</li>
+<li>Elles sont associées à un risque d&rsquo;insuffisance ovarienne prématurée</li>
+<li>Le risque de syndrome neurodégénératif à début tardif (FXTAS) ne concerne que les hommes</li>
+<li>Elles peuvent passer à la mutation complète lors d&rsquo;une transmission paternelle</li>
+
+</ol>
+<p>
+QCS 1
+Concernant le syndrome de l&rsquo;X fragile, quelles sont les propositions vraies ?
+</p>
+<ol>
+<li>Il est peut-être causé par une mutation ponctuelle du gène FMR1</li>
+<li>Les mutations surviennent le plus souvent de novo</li>
+<li>La CGH-array confirme le diagnostic chez la plupart des patients</li>
+<li>Les caractéristiques faciales ne sont ni constantes ni spécifiques</li>
+<li>Le diagnostic prénatal peut être proposé à une femme dont le conjoint est porteur d&rsquo;une prémutation</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgbed910f">
+<h2 id="orgbed910f">Bonus : PEC BRCA</h2>
+<p>
+Prise en charge des femmes porteuses d&rsquo;une mutation d&rsquo;un gène BRCA
+■ À partir de 20 ans, palpation des seins et des creux axillaires tous les 6 mois.
+■ À partir de 30 ans, ou 5 ans avant le cas de cancer du sein s&rsquo;il existe un cas avant 30 ans, IRM mammaire annuelle, complétée d&rsquo;une seule incidence de mammographie.
+■ Avant 40 ans, en particulier chez les porteuses d&rsquo;une mutation de BRCA1, après information, temps de réflexion et accompagnement psychologique mastectomie prophylactique.
+■ Après 40 ans et tout projet parental, annexectomie prophylactique.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgd2fc71a">
+<h2 id="orgd2fc71a">Bonus: Lynch</h2>
+</section>
+</section>
+<section>
+<section id="slide-orga8768a7">
+<h2 id="orga8768a7">Bonus: PEC MMR</h2>
+<p>
+Prise en charge des porteurs et porteuses d&rsquo;une mutation d&rsquo;un gène MMR
+■ À partir de 20 ans, chromocoloscopie complète tous les deux ans.
+■ À partir de 30 ans, échographie endovaginale avec prélèvement endométrial par Pipelle de Cornier tous les deux ans.
+■ Après 40 ans et accomplissement du projet parental, hystérectomie avec ovariectomie prophylactique.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org10148d9">
+<h2 id="org10148d9">Bonus: noms des gènes</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Forme héréditaire de cancer</th>
+<th scope="col" class="org-left">Gène</th>
+<th scope="col" class="org-left">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">I. Activation constitutive de la cascade de transduction</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cancer médullaire de la thyroïde (CMT)</td>
+<td class="org-left">RET</td>
+<td class="org-left">REarranged during Transfection</td>
+</tr>
+
+<tr>
+<td class="org-left">Cancer papillaire du rein</td>
+<td class="org-left">MET</td>
+<td class="org-left">Mesenchymal Epithelial Transition</td>
+</tr>
+
+<tr>
+<td class="org-left">Maladie de Cowden</td>
+<td class="org-left">PTEN</td>
+<td class="org-left">Phosphatase and TENsin homolog,</td>
+</tr>
+
+<tr>
+<td class="org-left">Maladie de Von Hippel Lindau</td>
+<td class="org-left">VHL</td>
+<td class="org-left">idem</td>
+</tr>
+
+<tr>
+<td class="org-left">Médulloblastome</td>
+<td class="org-left">SUFU</td>
+<td class="org-left">Suppressor Of Fused Homolog (hedgehog !)</td>
+</tr>
+
+<tr>
+<td class="org-left">Neurofibromatose de type I</td>
+<td class="org-left">NF1</td>
+<td class="org-left">idem</td>
+</tr>
+
+<tr>
+<td class="org-left">Polypose adénomateuse familiale</td>
+<td class="org-left">APC</td>
+<td class="org-left">Adenomatous Polyposis coli</td>
+</tr>
+
+<tr>
+<td class="org-left">Syndrome de Gorlin</td>
+<td class="org-left">PTCH</td>
+<td class="org-left">PaTCH</td>
+</tr>
+
+<tr>
+<td class="org-left">Tumeur de Wilms</td>
+<td class="org-left">WT1</td>
+<td class="org-left">Wil&rsquo;s Tumor</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">II. Altération des points de contrôles du cycle cellulaire</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Rétinoblastome</td>
+<td class="org-left">RB1</td>
+<td class="org-left">idem</td>
+</tr>
+
+<tr>
+<td class="org-left">Mélanome malin</td>
+<td class="org-left">CDKN2A</td>
+<td class="org-left">Cyclin Dependent Kinase Inhibitor</td>
+</tr>
+
+<tr>
+<td class="org-left">Syndrome de Li-Fraumeni</td>
+<td class="org-left">TP53</td>
+<td class="org-left">Tumor Protein</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">III. Altération des systèmes de réparation de l&rsquo;ADN</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cancer du sein et de l&rsquo;ovaire</td>
+<td class="org-left">BRCA1, BRCA2</td>
+<td class="org-left">BReast CAncer</td>
+</tr>
+
+<tr>
+<td class="org-left">Polypose adénomateuse autosomique récessive</td>
+<td class="org-left">MUTYH</td>
+<td class="org-left">Mut Y DNA glycosylase</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">MLH1</td>
+<td class="org-left">MuLt Homolog</td>
+</tr>
+
+<tr>
+<td class="org-left">Syndrome de Lynch</td>
+<td class="org-left">MSH</td>
+<td class="org-left">DNA repair MiSmatcH</td>
+</tr>
+
+<tr>
+<td class="org-left">Xeroderma pigmentosum</td>
+<td class="org-left">XP</td>
+<td class="org-left">idem</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Autres</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Cancers bronchiques</td>
+<td class="org-left">ALK</td>
+<td class="org-left">Activin receptor-Like Kinase 1</td>
+</tr>
+
+<tr>
+<td class="org-left">Carcinomes colique, bronchiques</td>
+<td class="org-left">KRAS</td>
+<td class="org-left">Kirsten RAt Sarcoma viral oncogene homolog</td>
+</tr>
+
+<tr>
+<td class="org-left">Carcinomes sein, ovaire</td>
+<td class="org-left">HER2</td>
+<td class="org-left">Human Epidermal growth factor Receptor 2</td>
+</tr>
+
+<tr>
+<td class="org-left">Carcinomes+++, gliomes</td>
+<td class="org-left">EGFR</td>
+<td class="org-left">Epidermal Growth Factor Receptor</td>
+</tr>
+
+<tr>
+<td class="org-left">GastroIntestinal STromal Tumor</td>
+<td class="org-left">KIT</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Leucémies aigües myéloïdes</td>
+<td class="org-left">FLT3</td>
+<td class="org-left">Fms-Like Tyrosine kinase 3</td>
+</tr>
+
+<tr>
+<td class="org-left">Leucémies, mélanomes</td>
+<td class="org-left">NRAS</td>
+<td class="org-left">Neuroblastoma-RAS</td>
+</tr>
+
+<tr>
+<td class="org-left">Lymphome de Burkitt</td>
+<td class="org-left">C-MYC</td>
+<td class="org-left">Cellular MYeloCytomatosis</td>
+</tr>
+
+<tr>
+<td class="org-left">Lymphomes du manteau</td>
+<td class="org-left">Cycline D</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Mélanome</td>
+<td class="org-left">CD4</td>
+<td class="org-left">Cluster of differentiation 4</td>
+</tr>
+
+<tr>
+<td class="org-left">Mélanomes</td>
+<td class="org-left">BRAF</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Neuroblastomes</td>
+<td class="org-left">N-MYC</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Sarcomes, gliomes</td>
+<td class="org-left">PDGFR</td>
+<td class="org-left">Platelet-derived growth factor receptors</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</div>
+</div>
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/search/search.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+width: 2100,
+height: 1500,
+
+transition: 'nil',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
