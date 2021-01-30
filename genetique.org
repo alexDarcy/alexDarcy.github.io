@@ -1,6 +1,9 @@
 #+TITLE: Génétique
 #+OPTIONS: toc:nil timestamp:nil num:nil
 #+OPTIONS: reveal_width:2100 reveal_height:1500
+#+HTML_HEAD: <style type="text/css">
+#+HTML_HEAD:  ol#li { list-style-type: upper-alpha; }
+#+HTML_HEAD: </style>
 #+REVEAL_TRANS: nil
 #+REVEAL_ROOT: reveal.js/
 * Chap 2 QCM 5 :noexport:
@@ -58,7 +61,7 @@ E. Un patient atteint aura forcément tous ses enfants atteints
 #+ATTR_REVEAL: :frag (t)
 - transmission verticale
 - s'exprime chez les *hétérozygote* => 1 chance sur 2 d'avoir l'allèle atteinte !
-* Chap 5 QCM 1
+* Chap 5 QCM 1 :noexport:
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
@@ -75,7 +78,7 @@ E. Ce risque est indépendant du sexe de l'individu
 #+attr_html: :width 30%
 [[./img/autosomique_recesif.png]]
 
-* Chap 5 QCM 2
+* Chap 5 QCM 2 :noexport:
 Concernant le risque de Mr C et Mme D d'être hétérozygote pour la maladie de Hurler, quelle(s) proposition(s) est (sont) exacte(s) ?
 #+ATTR_REVEAL: :frag (none highlight-green highlight-green none none )
 A. Le risque pour Mr C d'être hétérozygote pour la maladie de Hurler est de 1/4
@@ -88,7 +91,7 @@ E. Le risque pour Mme D d'être hétérozygote pour la maladie de Hurler est de 
 #+attr_html: :width 40%
 [[./img/heterozygote_autosomique_recesif.png]]
 
-* Chap 5 QCS 1
+* Chap 5 QCS 1 :noexport:
 En vous servant de la loi de Hardy-Weinberg, quel est le risque que Mr A soit hétérozygote pour la maladie de Hurler ?
 #+ATTR_REVEAL: :frag (none none none highlight-green none)
 A. 1/75
@@ -105,7 +108,7 @@ $q^2 = \frac{1}{90 000}$ donc $q = \frac{1}{300}$.
 
 #+ATTR_REVEAL: :frag (t)
 Or on veut connaître $2 p q$ et on sait que $p = 1 - q \approx 1$...
-* Chap 5 QCS 2
+* Chap 5 QCS 2 :noexport:
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
@@ -122,40 +125,38 @@ Probabilité du père de lui passer 1 allèle atteint = $\frac{1}{150} \times \f
 
 #+ATTR_REVEAL: :frag (t)
 Probabilité de la mère de lui passer 1 allèle atteint = $\frac{2}{3} \times \frac{1}{2}$
-* Chap 5 QCS QCS 3
+* Chap 5 QCS QCS 3 :noexport:
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
 Quel est le risque pour le couple C-D d'avoir un enfant atteint de la maladie de Hurler ?
+#+ATTR_REVEAL: :frag (none none highlight-green none )
 A. 1/128
 B. 1/32
 C. 1/24
 D. 1/12
 E. 1/48
-* Chap 7 QCS 1
-QCS 1
-En salle de naissance, on vous confie un enfant qui présente un retard de croissance important et diverses malformations. Vous évoquez une possible triploïdie. Pour confirmer votre suspicion, vous prescrivez :
-A. Un séquençage de tout le génome
-B. Un caryotype constitutionnel sur lymphocytes
-C. Une FISH avec une sonde du chromosome 21
-D. Un Southern blot
-E. Aucune de ces techniques
-FISH vs caryotype
-Techniques d'étude
-Le caryotype
-Si le caryotype a été une technique précieuse qui a permis historiquement l'identification de la majorité de ces anomalies, c'est une technique difficile, sujette à des contraintes pratiques, comprenant plusieurs étapes qui vont du recueil du prélèvement dans des conditions stériles au transport dans du milieu permettant la survie des cellules tumorales jusqu'à la mise en culture de ces cellules afin d'obtenir des cellules en division et leur analyse au stade de métaphase. Le temps de culture est variable en fonction du type tumoral et du type de culture (en suspension ou culture de cellules adhérentes). Il peut aller de 72 heures à 15 jours.
-Certaines tumeurs sont difficiles à faire pousser in vitro. Les échecs de culture sont assez fréquents. Les fibroblastes du microenvironnement peuvent proliférer mieux que les cellules tumorales.
-Son interprétation pose problème. Comment interpréter un caryotype sans anomalie ? Est-ce une cellule tumorale ou une cellule du microenvironnement ? Certaines anomalies comme les amplifications sont difficiles à identifier. Contrairement aux hémopathies, les tumeurs solides sont souvent polyclonales et leur caryotype peut être extrêmement complexe avec de multiples anomalies non identifiables. Beaucoup de tumeurs sont polyploïdes.
-La sensibilité de cette technique n'est pas bonne (10 Mb environ) mais elle permet une analyse globale cellule par cellule des altérations.
-Si le caryotype hématologique est très répandu dans les laboratoires de cytogénétiques, celui des tumeurs solides l'est peu. Il est supplanté par les techniques de cytogénétique moléculaire comme la FISH, notamment sur coupe en paraffine et la CGH-array.
-La FISH
-Elle peut être réalisée de première intention ou en complément du caryotype ou du profil moléculaire par CGH-array. Elle peut être réalisée sur préparation cytogénétique, apposition, empreinte, cryocoupe ou coupe en paraffine. Ces dernières ont l'avantage de garder l'architecture tumorale ce qui peut être précieux en cas de faible cellularité tumorale tout en permettant des études rétrospectives.
-C'est la technique de choix pour la recherche d'amplification. Mais chaque gène à son critère d'amplification et il faut se méfier des fortes polysomies qui peuvent exister dans certaines tumeurs si on utilise des critères n'intégrant pas une sonde contrôle.
-La CGH-array
-C'est une étude globale du génome qui ne révèle que les variations du nombre de copies du génome, notamment les amplifications par rapport à un niveau médian. Un contrôle histologique de la cellularité tumorale de l'échantillon utilisé est nécessaire et généralement, un minimum de 50 % de cellules tumorales est requis. Des techniques se développent pour l'utiliser sur paraffine. Elle ne permet de visualiser ni les translocations ni le caractère polyclonal des tumeurs.
-En 2011, un phénomène appelé chromothripsis a été décrit par Stephens et al. [9] suite à une technique de NGS. Il s'agit d'une catastrophe mitotique qui engendre une multitude de microremaniements (duplication, inversion, délétion) intéressant un (le plus souvent) mais parfois jusqu'à quatre chromosomes ou régions chromosomiques. Ils ont estimé la fréquence de ce phénomène dans les tumeurs à 2,5 % (et 5 % des tumeurs osseuses) en regardant le profil moléculaire par CGH-array. La théorie de l'accumulation progressive d'anomalies est remise en question par ce processus. Cela a été corrélé à un mauvais pronostic dans certaines tumeurs.
+
+#+ATTR_REVEAL: :frag (t)
+Père = $frac{2}{3}\times\frac{1}{2}$ et
+Mère = $frac{1}{3}\times\frac{1}{2}$
+* Cours :noexport:
+    - la cytogénétique s’intéresse à des anomalies de grande taille (chromosome entier ou fragment de chromosomes de plusieurs milliers voire millions de paires de bases), on parle de remaniement ou d’anomalie chromosomique
+    - la biologie moléculaire s’intéresse à des mutations (on parle aujourd’hui plutôt de variants) concernant un ou quelques nucléotides
+Il est donc impossible de détecter une mutation d’un gène en cytogénétique.
+Les principaux examens de cytogénétique sont :
+    - le caryotype : analyse non ciblée de l’ensemble des chromosomes, pour détecter des anomalies chromosomiques de nombre ou de structure de grande taille (>5Mb)
+    - l’Analyse Chromosomique par Puce à ADN (ACPA ou CGH-Array) : analyse non ciblée de l’ensemble des chromosomes, pour détecter des microremaniements chromosomiques (≈100 fois plus précis que le caryotype, sorte de « super-caryotype », même si la technique est complètement différente)
+    - la FISH (Fluorescence par Hybridation In Situ) : analyse ciblée des chromosomes, permet d’identifier un microremaniement chromosomique (mais on doit savoir à l’avance ce que l’on recherche)
+Les principaux examens de biologie moléculaire sont :
+    - le séquençage Sanger : séquençage classique d’un gène
+    - le NGS (Next Generation Sequencing) : séquençage à haut débit, permet de séquencer une grande quantité d’ADN de plusieurs patients à la fois ; on peut ainsi séquencer :
+        - un panel de gènes
+        - l’exome = parties codantes
+        - le génome = ADN
+
 Le Southern blot permet l'étude d'un fragment d'ADN particulier au sein du génome après transfert des fragments d'ADN d'un gel d'électrophorèse sur une membrane
-* Chap 13 Question condensée
+* KILL Chap 13 Question condensée
 QCS 1
 Un hypertélorisme est défini par :
 A. Un rapport distance intercanthale externe/distance intercanthale interne > 1/3
@@ -184,7 +185,7 @@ B. Le blocage d'une articulation en flexion
 C. La présence d'un sixième doigt au bord cubital
 D. Une absence de phalange médiane
 E. Aucun item n'est exact
-* Chap 15
+* TODO Chap 15 :noexport:
 QCM 1
 Parmi les propositions suivantes concernant le diagnostic prénatal par échographie, laquelle/lesquelles est/sont vraie(s) ?
 A. La mesure de la clarté nucale est obtenue à l'échographie de 22 SA
@@ -220,7 +221,7 @@ B. Un couple ayant eu un enfant atteint de daltonisme
 C. Une mère conductrice de myopathie de Duchenne n'ayant pas eu d'enfant atteint
 D. Un antécédent de trisomie 21 libre et homogène
 E. Un couple dont les deux membres ont une mutation p.Phe508del à l'état hétérozygote
-* Chap 16
+* TODO Chap 16 :noexport:
 QCM
 QCM 1
 Concernant les prélèvements nécessaires pour les dépistages biochimiques :
@@ -257,19 +258,29 @@ B. La valeur prédictive négative du test est bonne
 C. Tous les types de surdité sont détectables en période néonatale
 D. L'objectif principal est de permettre la prise en charge précoce d'une surdité sévère permettant la mise en place d'une communication verbale si possible
 E. Le nombre des faux positifs est important
-* Chap 18
-QROC 1
-Citez les principes à respecter lors de la prescription et la réalisation de tests génétiques (examens des caractéristiques génétiques de la personne).
-QROC 2
-Caractéristiques de l'information préalable au recueil du consentement.
-QROC 3
-Caractéristiques de l'information lors du rendu de résultat.
-QROC 4
-Dans quelles circonstances faut-il mettre en œuvre la démarche d'information familiale en génétique ?
-QROC 5
-Lorsqu'une affection génétique est diagnostiquée, qui doit informer la parentèle ?
-QROC 6
-Conditions de prescription des tests génétiques pour les mineurs et les majeurs sous tutelle.
+* Cours
+A propos de la prescription des examens génétiques, parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
+A – Le patient (ou ses représentants légaux) doit signer un consentement écrit avant l’analyse
+B -  Les examens génétiques ne peuvent pas être pratiqués chez les mineurs
+C – Les examens génétiques peuvent être pratiqués uniquement chez les patients symptomatiques
+D – Le prescripteur doit signer une attestation de consultation
+E – Les résultats d’examens génétiques doivent être rendus en consultation par le prescripteur
+
+Réponse A, D, E
+* Cours
+Les examens de génétique peuvent être prescrits uniquement par des médecins généticiens ou par des spécialistes appartenant à une équipe pluridisciplinaire en collaboration avec des généticiens.
+Ils sont prescrits au décours d’une consultation, après information claire, loyale et appropriée du patient et/ou de ses représentants légaux. Un consentement écrit signé par le patient ou les représentants légaux est nécessaire. Le prescripteur doit également signer une attestation de consultation, dans laquelle il déclare avoir délivré l’information nécessaire au patient ou à ses représentants légaux quant à la nature des examens réalisés, les résultats et leurs implications.
+Les analyses de génétique se font le plus souvent à partir d’un prélèvement sanguin périphérique. Parfois, l’analyse d’un autre tissu est indiquée (prélèvement salivaire, biopsie d’un organe atteint) : recherche d’une mosaïque, pathologie touchant préférentiellement certains organes, analyses du génome tumoral…
+Les résultats sont toujours rendus en consultation par le prescripteur.
+Les examens peuvent être pratiqués chez un patient symptomatique quel que soit son âge, à visée étiologique.
+Chez les mineurs asymptomatiques, les examens génétiques ne sont pas indiqués sauf si le résultat a un impact direct sur le pronostic du patient et/ou sa prise en charge.
+Chez les adultes, on peut être amené, dans certaines situations spécifiques, à effectuer des analyses génétiques chez des patients asymptomatiques :
+    - diagnostic pré-symptomatique
+    - conseil génétique de pathologie autosomique récessive (« porteurs sains »)
+    - recherche d’hétérozygotie dans un cadre pré-conceptionnel en cas d’antécédent familial de pathologie autosomique récessive ou chez le conjoint d’un patient hétérozygote
+    - fausses couches à répétition (≥3) pour recherche de translocation équilibrée
+    - …
+
 * Chap 19
 QROC 2
 À quelles conditions la loi autorise-t-elle le recours à l'interruption de grossesse pour motif médical ?
@@ -777,41 +788,41 @@ Chapitre 18
 
 QROC 1 :
 
-• primauté de l'individu sur la société ;
+- primauté de l'individu sur la société ;
 
-• partage de l'information au sein de la famille ;
+- partage de l'information au sein de la famille ;
 
-• droit à l'information ;
+- droit à l'information ;
 
-• recueil du consentement par écrit ;
+- recueil du consentement par écrit ;
 
-• protection des personnes incapables de consentir ;
+- protection des personnes incapables de consentir ;
 
-• droit de ne pas savoir ;
+- droit de ne pas savoir ;
 
-• utilité clinique et qualité des tests ;
+- utilité clinique et qualité des tests ;
 
-• droit à un suivi médical individualisé et au conseil génétique ;
+- droit à un suivi médical individualisé et au conseil génétique ;
 
-• respect de la confidentialité et de la vie privée ;
+- respect de la confidentialité et de la vie privée ;
 
-• égalité d'accès aux soins.
+- égalité d'accès aux soins.
 
 QROC 2 :
 
-• avant la réalisation du test, une information détaillée doit être délivrée à la personne lors d'une consultation individuelle, en face-à-face avec un médecin spécialisé connaissant la maladie et ses aspects génétiques ;
+- avant la réalisation du test, une information détaillée doit être délivrée à la personne lors d'une consultation individuelle, en face-à-face avec un médecin spécialisé connaissant la maladie et ses aspects génétiques ;
 
-• cette information devra être « loyale, claire, appropriée » et adaptée au niveau de compréhension afin de permettre une décision éclairée ;
+- cette information devra être « loyale, claire, appropriée » et adaptée au niveau de compréhension afin de permettre une décision éclairée ;
 
-• elle sera complétée, en expliquant le caractère héréditaire des maladies génétiques et le devoir de transmettre, le cas échéant, l'information aux apparentés.
+- elle sera complétée, en expliquant le caractère héréditaire des maladies génétiques et le devoir de transmettre, le cas échéant, l'information aux apparentés.
 
 QROC 3 :
 
-• à l'issue des analyses, sauf volonté exprimée d'être tenue dans l'ignorance du diagnostic, le patient est informé des résultats obtenus de façon « loyale, claire, appropriée » et adaptée au niveau de compréhension ;
+- à l'issue des analyses, sauf volonté exprimée d'être tenue dans l'ignorance du diagnostic, le patient est informé des résultats obtenus de façon « loyale, claire, appropriée » et adaptée au niveau de compréhension ;
 
-• seul le médecin prescripteur est habilité à rendre ces résultats lors d'une consultation individuelle ;
+- seul le médecin prescripteur est habilité à rendre ces résultats lors d'une consultation individuelle ;
 
-• les éléments d'informations communiqués doivent être résumés dans un document écrit.
+- les éléments d'informations communiqués doivent être résumés dans un document écrit.
 
 QROC 4 : dans le cas de maladies héréditaires. La situation qui impose de se préoccuper d'informer la parentèle est ainsi décrite : « si une anomalie génétique grave dont les conséquences sont susceptibles de mesures de prévention, y compris de conseil génétique, ou de soins était diagnostiquée. »
 
@@ -819,11 +830,11 @@ QROC 5 : ce devoir d'information de la parentèle échoit en priorité au consul
 
 QROC 6 :
 
-• le recueil du consentement de leurs représentants légaux est nécessaire, à savoir pour les mineurs, les titulaires de l'autorité parentale et, pour les majeurs sous tutelle, le tuteur ;
+- le recueil du consentement de leurs représentants légaux est nécessaire, à savoir pour les mineurs, les titulaires de l'autorité parentale et, pour les majeurs sous tutelle, le tuteur ;
 
-• dans tous les cas, leur assentiment à la réalisation de l'examen est également recherché, dans la mesure du possible, en fonction de leur degré de maturité et/ou de leur capacité de discernement ;
+- dans tous les cas, leur assentiment à la réalisation de l'examen est également recherché, dans la mesure du possible, en fonction de leur degré de maturité et/ou de leur capacité de discernement ;
 
-• les examens peuvent être prescrits chez un mineur ou chez un majeur sous tutelle si celui-ci ou sa famille peuvent personnellement bénéficier de mesures préventives ou curatives immédiates.
+- les examens peuvent être prescrits chez un mineur ou chez un majeur sous tutelle si celui-ci ou sa famille peuvent personnellement bénéficier de mesures préventives ou curatives immédiates.
 Entraînement 19
 Chapitre 19
 
@@ -833,31 +844,31 @@ QROC 2 : en effet, en France, depuis la loi du 17 janvier 1975 (loi Veil), l'int
 
 QROC 3 :
 
-• discussion collégiale pour toute décision d'IMG et toute indication de recours au DPI ;
+- discussion collégiale pour toute décision d'IMG et toute indication de recours au DPI ;
 
-• missions d'expertise (sur la conduite à tenir en cas de suspicion d'une affection fœtale) ;
+- missions d'expertise (sur la conduite à tenir en cas de suspicion d'une affection fœtale) ;
 
-• mission de santé publique (organiser des actions de formation, favoriser l'égal accès de tous au DPN et au DPI).
+- mission de santé publique (organiser des actions de formation, favoriser l'égal accès de tous au DPN et au DPI).
 
 QROC 4 :
 
-• discussion transdisciplinaire (praticiens en gynécologie-obstétrique, échographie obstétricale, génétique médicale et néonatologie/pédiatrie, psychologues, conseillers en génétique, etc.) ;
+- discussion transdisciplinaire (praticiens en gynécologie-obstétrique, échographie obstétricale, génétique médicale et néonatologie/pédiatrie, psychologues, conseillers en génétique, etc.) ;
 
-• prise en compte de l'avis de la femme enceinte après qu'elle ait été correctement informée ;
+- prise en compte de l'avis de la femme enceinte après qu'elle ait été correctement informée ;
 
-• analyse au cas par cas, de façon contextualisée ;
+- analyse au cas par cas, de façon contextualisée ;
 
-• respect de la loi de bioéthique.
+- respect de la loi de bioéthique.
 
 QROC 5 :
 
-• s'interroger sur les procédures d'information et de recueil du consentement en situation d'incertitude ;
+- s'interroger sur les procédures d'information et de recueil du consentement en situation d'incertitude ;
 
-• harmoniser des pratiques entre laboratoires par le biais de guidelines ;
+- harmoniser des pratiques entre laboratoires par le biais de guidelines ;
 
-• définir les compétences et l'expertise à acquérir (pour les biologistes en charge du rendu des résultats mais aussi pour les prescripteurs en charge de l'information) ;
+- définir les compétences et l'expertise à acquérir (pour les biologistes en charge du rendu des résultats mais aussi pour les prescripteurs en charge de l'information) ;
 
-• organiser échanges et collaborations entre les cliniciens prescripteurs et les biologistes pour une juste interprétation des données du séquençage dans le meilleur intérêt du patient.
+- organiser échanges et collaborations entre les cliniciens prescripteurs et les biologistes pour une juste interprétation des données du séquençage dans le meilleur intérêt du patient.
 Entraînement 20
 Chapitre 20
 
@@ -909,9 +920,9 @@ C. Vrai. Les femmes porteuses d'une prémutation peuvent présenter une insuffis
 
 D. Faux. Il est vrai que la mutation ne rétracte pratiquement jamais, mais :
 
-• les garçons atteints de FXS n'ont pratiquement jamais d'enfants du fait de leur atteinte cognitive. Dans les rares cas décrits, leurs fils sont normaux (héritent du chromosome Y) et leurs filles sont prémutées (du fait d'une rétraction de la répétition durant la spermatogénèse) ;
+- les garçons atteints de FXS n'ont pratiquement jamais d'enfants du fait de leur atteinte cognitive. Dans les rares cas décrits, leurs fils sont normaux (héritent du chromosome Y) et leurs filles sont prémutées (du fait d'une rétraction de la répétition durant la spermatogénèse) ;
 
-• la moitié des fils et filles des femmes porteuses d'une mutation complète héritent l'allèle maternel normal.
+- la moitié des fils et filles des femmes porteuses d'une mutation complète héritent l'allèle maternel normal.
 
 QCM 4 :
 
