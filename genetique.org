@@ -6,7 +6,7 @@
 #+HTML_HEAD: </style>
 #+REVEAL_TRANS: nil
 #+REVEAL_ROOT: reveal.js/
-* Chap 2 QCM 5 :noexport:
+* Chap 2 QCM 5
 Le syndrome de Turner :
 #+ATTR_REVEAL: :frag (highlight-green highlight-green none none highlight-green)
 A. Correspond à la nullosomie de gènes portés par le chromosome Y
@@ -28,7 +28,7 @@ _Syndrome de Turner_
 -  *pas de déficience intellectuelle*
 - femme adulte, grossesses possibles après don ovocyte
 
-* Chap 2 QCM 6 :noexport:
+* Chap 2 QCM 6
 Le syndrome de Klinefelter est caractérisé par :
 #+ATTR_REVEAL: :frag (none highlight-green highlight-green highlight-green none)
 A. Une déficience intellectuelle constante
@@ -49,7 +49,7 @@ Syndrome de Klinefelter
   - atteinte testiculaire, avec ou sans signe d'hypogonadisme, petit volume testiculaire+++ => azoospermie
 - bio : FSH augmenté, leydig normale
 
-* Chap 4 QCM 1 (optionnel) :noexport:
+* Chap 4 QCM 1 (optionnel)
 Concernant la transmission autosomique, quelles affirmations sont vraies ?
 #+ATTR_REVEAL: :frag (none highlight-green none highlight-green none)
 A. La transmission est de type horizontal
@@ -61,7 +61,7 @@ E. Un patient atteint aura forcément tous ses enfants atteints
 #+ATTR_REVEAL: :frag (t)
 - transmission verticale
 - s'exprime chez les *hétérozygote* => 1 chance sur 2 d'avoir l'allèle atteinte !
-* Chap 5 QCM 1 :noexport:
+* Chap 5 QCM 1
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
@@ -78,7 +78,7 @@ E. Ce risque est indépendant du sexe de l'individu
 #+attr_html: :width 30%
 [[./img/autosomique_recesif.png]]
 
-* Chap 5 QCM 2 :noexport:
+* Chap 5 QCM 2
 Concernant le risque de Mr C et Mme D d'être hétérozygote pour la maladie de Hurler, quelle(s) proposition(s) est (sont) exacte(s) ?
 #+ATTR_REVEAL: :frag (none highlight-green highlight-green none none )
 A. Le risque pour Mr C d'être hétérozygote pour la maladie de Hurler est de 1/4
@@ -91,7 +91,7 @@ E. Le risque pour Mme D d'être hétérozygote pour la maladie de Hurler est de 
 #+attr_html: :width 40%
 [[./img/heterozygote_autosomique_recesif.png]]
 
-* Chap 5 QCS 1 :noexport:
+* Chap 5 QCS 1
 En vous servant de la loi de Hardy-Weinberg, quel est le risque que Mr A soit hétérozygote pour la maladie de Hurler ?
 #+ATTR_REVEAL: :frag (none none none highlight-green none)
 A. 1/75
@@ -108,7 +108,7 @@ $q^2 = \frac{1}{90 000}$ donc $q = \frac{1}{300}$.
 
 #+ATTR_REVEAL: :frag (t)
 Or on veut connaître $2 p q$ et on sait que $p = 1 - q \approx 1$...
-* Chap 5 QCS 2 :noexport:
+* Chap 5 QCS 2
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
@@ -125,7 +125,7 @@ Probabilité du père de lui passer 1 allèle atteint = $\frac{1}{150} \times \f
 
 #+ATTR_REVEAL: :frag (t)
 Probabilité de la mère de lui passer 1 allèle atteint = $\frac{2}{3} \times \frac{1}{2}$
-* Chap 5 QCS QCS 3 :noexport:
+* Chap 5 QCS QCS 3
 #+attr_html: :width 40%
 [[./img/arbre_hurler.png]]
 
@@ -140,7 +140,7 @@ E. 1/48
 #+ATTR_REVEAL: :frag (t)
 Père = $frac{2}{3}\times\frac{1}{2}$ et
 Mère = $frac{1}{3}\times\frac{1}{2}$
-* Cours :noexport:
+* Cours
     - la cytogénétique s’intéresse à des anomalies de grande taille (chromosome entier ou fragment de chromosomes de plusieurs milliers voire millions de paires de bases), on parle de remaniement ou d’anomalie chromosomique
     - la biologie moléculaire s’intéresse à des mutations (on parle aujourd’hui plutôt de variants) concernant un ou quelques nucléotides
 Il est donc impossible de détecter une mutation d’un gène en cytogénétique.
@@ -258,7 +258,7 @@ B. La valeur prédictive négative du test est bonne
 C. Tous les types de surdité sont détectables en période néonatale
 D. L'objectif principal est de permettre la prise en charge précoce d'une surdité sévère permettant la mise en place d'une communication verbale si possible
 E. Le nombre des faux positifs est important
-* Cours :noexport:
+* Cours
 A propos de la prescription des examens génétiques, parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
 
 #+ATTR_REVEAL: :frag (highlight-green none none highlight-green highlight-green)
@@ -268,7 +268,7 @@ C. Les examens génétiques peuvent être pratiqués uniquement chez les patient
 D. Le prescripteur doit signer une attestation de consultation
 E. Les résultats d’examens génétiques doivent être rendus en consultation par le prescripteur
 
-* Cours :noexport:
+* Cours
 Les examens de génétique peuvent être prescrits uniquement par des médecins généticiens ou par des spécialistes appartenant à une équipe pluridisciplinaire en collaboration avec des généticiens.
 
 Ils sont prescrits au décours d’une consultation, après information claire, loyale et appropriée du patient et/ou de ses représentants légaux. Un consentement écrit signé par le patient ou les représentants légaux est nécessaire. Le prescripteur doit également signer une attestation de consultation, dans laquelle il déclare avoir délivré l’information nécessaire au patient ou à ses représentants légaux quant à la nature des examens réalisés, les résultats et leurs implications.
@@ -308,7 +308,7 @@ A. C'est une maladie responsable d'une forme congénitale de maladie musculaire 
 B. Une cataracte peut être la seule expression clinique de la myotonie de Steinert
 C. Au sein d'une famille, si différentes formes cliniques sont observées, elles ont tendance à s'aggraver au cours des générations
 D. Il n'y a pas d'atteinte cognitive dans la myotonie de Steinert
-* Chap 23 :noexport:
+* Chap 23
 QCM 5
 Quelle(s) est/sont la/les caractéristique(s) des cancers du sein associés aux mutations du gène BRCA1 ?
 
@@ -318,7 +318,7 @@ B. Le profil triple négatif vis-à-vis des récepteurs aux œstrogènes à la p
 C. Une sensibilité particulière aux inhibiteurs de PARP
 D. Leur présentation multifocale
 E. Leur bon pronostic
-* Chap 27 QCM 1 :noexport:
+* Chap 27 QCM 1
 Dans le cadre du dépistage de la trisomie 21, le calcul du dépistage combiné proposé au premier trimestre est basé sur :
 #+ATTR_REVEAL: :frag (highlight-green highlight-green none )
 A. La mesure de la clarté nucale
@@ -326,7 +326,7 @@ B. L'âge maternel
 C. L'âge paternel
 D. les antécédents d'anomalie chromosomique dans la fratrie
 E. La présence d'une cardiopathie congénitale
-* Chap 27 QCM 2 :noexport:
+* Chap 27 QCM 2
 Quel suivi régulier doit être proposé aux enfants porteurs d'une trisomie 21 ?
 #+ATTR_REVEAL: :frag (highlight-green highlight-green highlight-green none highlight-green)
 A. ORL
@@ -495,7 +495,7 @@ B. Non-sens
 C. Des insertions/délétions
 D. Des expansions de triplets
 E. Des grands réarrangements génomiques
-* Chap 29 :noexport:
+* Chap 29
 QCM 1
 Concernant le syndrome de l'X fragile, quelles sont les propositions vraies ?
 A. Il s'agit de la forme de déficience intellectuelle d'origine génétique la plus fréquente
