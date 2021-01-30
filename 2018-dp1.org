@@ -44,7 +44,7 @@ Notes
 Vous avez demandé un scanner abdomino-pelvien. Sur la coupe montrée ci-dessous, quelles sont les propositions vraies ?
 (une ou plusieurs réponses exactes)
 #+attr_html: :width 400 px
-[[./2018-dp1-q3.png]]
+[[./img/2018-dp1-q3.png]]
 
 
 #+ATTR_REVEAL: :frag (highlight-green) :frag_idx (1 - 1 - 1)
@@ -155,7 +155,7 @@ sans particularité. Le ionogramme sanguin montre une kaliémie à 6 mmol/L, une
 est votre interprétation de l'électrocardiogramme ci-dessous ?
 * Question 9 (suite)
 #+attr_html: :width 800 px
-[[./2018-dp1-q9.png]]
+[[./img/2018-dp1-q9.png]]
 #+ATTR_REVEAL: :frag (t)
 - Fréquence
 - RythmeSinusal, P normales (< 0.10s), P suivie de QRS, P-P constant sans échappement (https://www.e-cardiogram.com/bloc-sino-atrial/)
@@ -206,7 +206,7 @@ Notes
 
 * Question 11
  #+attr_html: :width 800 px
-[[./calcium.png]]
+[[./img/calcium.png]]
 * Question 12 - Question à choix multiple
 Il n'a aucun symptôme à part des douleurs du rachis lombaire, diffuses. Son électrocardiogramme est superposable à ses
 précédents électrocardiogrammes. Quel(s) examen(s) complémentaire(s) préconisez-vous pour explorer cette anomalie
@@ -223,7 +223,7 @@ Notes
 Scinti pour méta
 * Question 12
 #+attr_html: :width 800 px
-[[./hypercalcemie.png]]
+[[./img/hypercalcemie.png]]
 * Question 13 - Question à choix multiple
 Vous avez découvert des métastases osseuses. La fonction rénale du patient continue à se dégrader, et vous réévaluez
 les possibilités de traitement de l'insuffisance rénale terminale.
