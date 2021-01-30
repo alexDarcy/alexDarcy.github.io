@@ -156,7 +156,7 @@ Les principaux examens de biologie moléculaire sont :
         - le génome = ADN
 
 Le Southern blot permet l'étude d'un fragment d'ADN particulier au sein du génome après transfert des fragments d'ADN d'un gel d'électrophorèse sur une membrane
-* KILL Chap 13 Question condensée
+* KILL Chap 13 Question condensée :noexport:
 QCS 1
 Un hypertélorisme est défini par :
 A. Un rapport distance intercanthale externe/distance intercanthale interne > 1/3
@@ -258,20 +258,25 @@ B. La valeur prédictive négative du test est bonne
 C. Tous les types de surdité sont détectables en période néonatale
 D. L'objectif principal est de permettre la prise en charge précoce d'une surdité sévère permettant la mise en place d'une communication verbale si possible
 E. Le nombre des faux positifs est important
-* Cours
+* Cours :noexport:
 A propos de la prescription des examens génétiques, parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
-A – Le patient (ou ses représentants légaux) doit signer un consentement écrit avant l’analyse
-B -  Les examens génétiques ne peuvent pas être pratiqués chez les mineurs
-C – Les examens génétiques peuvent être pratiqués uniquement chez les patients symptomatiques
-D – Le prescripteur doit signer une attestation de consultation
-E – Les résultats d’examens génétiques doivent être rendus en consultation par le prescripteur
 
-Réponse A, D, E
-* Cours
+#+ATTR_REVEAL: :frag (highlight-green none none highlight-green highlight-green)
+A. Le patient (ou ses représentants légaux) doit signer un consentement écrit avant l’analyse
+B.  Les examens génétiques ne peuvent pas être pratiqués chez les mineurs
+C. Les examens génétiques peuvent être pratiqués uniquement chez les patients symptomatiques
+D. Le prescripteur doit signer une attestation de consultation
+E. Les résultats d’examens génétiques doivent être rendus en consultation par le prescripteur
+
+* Cours :noexport:
 Les examens de génétique peuvent être prescrits uniquement par des médecins généticiens ou par des spécialistes appartenant à une équipe pluridisciplinaire en collaboration avec des généticiens.
+
 Ils sont prescrits au décours d’une consultation, après information claire, loyale et appropriée du patient et/ou de ses représentants légaux. Un consentement écrit signé par le patient ou les représentants légaux est nécessaire. Le prescripteur doit également signer une attestation de consultation, dans laquelle il déclare avoir délivré l’information nécessaire au patient ou à ses représentants légaux quant à la nature des examens réalisés, les résultats et leurs implications.
+
 Les analyses de génétique se font le plus souvent à partir d’un prélèvement sanguin périphérique. Parfois, l’analyse d’un autre tissu est indiquée (prélèvement salivaire, biopsie d’un organe atteint) : recherche d’une mosaïque, pathologie touchant préférentiellement certains organes, analyses du génome tumoral…
+
 Les résultats sont toujours rendus en consultation par le prescripteur.
+
 Les examens peuvent être pratiqués chez un patient symptomatique quel que soit son âge, à visée étiologique.
 Chez les mineurs asymptomatiques, les examens génétiques ne sont pas indiqués sauf si le résultat a un impact direct sur le pronostic du patient et/ou sa prise en charge.
 Chez les adultes, on peut être amené, dans certaines situations spécifiques, à effectuer des analyses génétiques chez des patients asymptomatiques :
@@ -281,10 +286,7 @@ Chez les adultes, on peut être amené, dans certaines situations spécifiques, 
     - fausses couches à répétition (≥3) pour recherche de translocation équilibrée
     - …
 
-* Chap 19
-QROC 2
-À quelles conditions la loi autorise-t-elle le recours à l'interruption de grossesse pour motif médical ?
-* Chap 22
+* TODO Chap 22 :noexport:
 QCM 2
 Dans la famille représentée ci-dessous, les garçons II.1 et II.2 sont atteints du syndrome de l'X fragile (FXS). On a indiqué le nombre de triplets CGG dans le gène FMR1 pour la mère et les enfants. Indiquez la/les proposition(s) vraie(s) :
 u22-02-9782294745218
@@ -306,121 +308,105 @@ A. C'est une maladie responsable d'une forme congénitale de maladie musculaire 
 B. Une cataracte peut être la seule expression clinique de la myotonie de Steinert
 C. Au sein d'une famille, si différentes formes cliniques sont observées, elles ont tendance à s'aggraver au cours des générations
 D. Il n'y a pas d'atteinte cognitive dans la myotonie de Steinert
-* Chap 23
+* Chap 23 :noexport:
 QCM 5
 Quelle(s) est/sont la/les caractéristique(s) des cancers du sein associés aux mutations du gène BRCA1 ?
+
+#+ATTR_REVEAL: :frag (highlight-green highlight-green highlight-green highlight-green none )
 A. La rapidité évolutive
 B. Le profil triple négatif vis-à-vis des récepteurs aux œstrogènes à la progestérone et de l'amplification d'ERBB2
 C. Une sensibilité particulière aux inhibiteurs de PARP
 D. Leur présentation multifocale
 E. Leur bon pronostic
-* Chap 27
-QCM 1
+* Chap 27 QCM 1 :noexport:
 Dans le cadre du dépistage de la trisomie 21, le calcul du dépistage combiné proposé au premier trimestre est basé sur :
+#+ATTR_REVEAL: :frag (highlight-green highlight-green none )
 A. La mesure de la clarté nucale
 B. L'âge maternel
 C. L'âge paternel
 D. les antécédents d'anomalie chromosomique dans la fratrie
 E. La présence d'une cardiopathie congénitale
-QCM 2
+* Chap 27 QCM 2 :noexport:
 Quel suivi régulier doit être proposé aux enfants porteurs d'une trisomie 21 ?
+#+ATTR_REVEAL: :frag (highlight-green highlight-green highlight-green none highlight-green)
 A. ORL
 B. Ophtalmologique
 C. Cardiaque
 D. Urologique
 E. Orthopédique
-QCM 3
+* Chap 27 QCM 3
 Quelle(s) complication(s) est/sont à redouter chez l'adulte trisomique 21 ?
+#+ATTR_REVEAL: :frag (highlight-green highlight-green none none highlight-green)
 A. Sécheresse cutanée
 B. Cataracte
 C. Dysurie
 D. Syndrome parkinsonien
 E. Syndrome démentiel de type Alzheimer
-QCM 4
+* Chap 27 QCM 4
 Quelles complications sont à redouter durant la première année de vie chez un(e) enfant porteur/euse de trisomie 21 ?
+
+#+ATTR_REVEAL: :frag (highlight-green )
 A. Cataracte
 B. Leucémie aiguë
 C. Syndrome de West
 D. Apnées du sommeil
 E. Maladie cœliaque
-QCM 5
+* Chap 27 QCM 5
 Les enfants porteurs de trisomies 21 sont plus fréquemment soumis à :
+#+ATTR_REVEAL: :frag (highlight-green highlight-green none highlight-green highlight-green)
 A. Apnées du sommeil
 B. Infections
 C. Tumeurs solides
 D. Instabilité C1-C2
 E. Diabète
-QCM 6
-La prise en charge des enfants porteurs de trisomie 21 :
-A. N'est pas forcément multidisciplinaire
-B. Nécessite l'investissement des parents
-C. Nécessite de l'orthophonie
-D. Ne nécessite pas d'aide psychologique
-E. Nécessite un apport vitaminique augmenté
-QCM 7
-L'adulte porteur de trisomie 21 :
-A. Ne peut pas travailler
-B. Doit rester chez ses parents
-C. Doit généralement être mis sous une mesure de protection
-D. Peut intégrer une structure de type ESAT
-E. Ne peut pas pratiquer de sport
-QCM 8
+* Chap 27 QCM 8
 Quelle(s) est(sont) la(les) malformation(s) digestive(s) la(les) plus fréquente(s) chez un nouveau-né trisomique 21 ?
+#+ATTR_REVEAL: :frag ( highlight-green highlight-green highlight-green none)
 A. Imperforation anale
 B. Atrésie duodénale
 C. Atrésie de l'œsophage
 D. Présence d'une rate surnuméraire
 E. Mésentère commun
-QCM 9
-Quelles formules chromosomiques sont compatibles avec un tableau clinique de trisomie 21 ?
-A. 47,XXY
-B. 45,XX,der(14 ;21)(q10 ;q10)
-C. 45,X
-D. 47,XY,+21
-E. 46,XY,der(14;21)(q10;q10),+21
-QCS 1
+* Chap 27 QCS 1
 Le diagnostic de trisomie 21 en période anténatale s'effectue avec :
+#+ATTR_REVEAL: :frag (none none none none highlight-green)
 A. Le dosage des marqueurs sériques maternels
 B. L'échographie
 C. L'âge de la mère
 D. L'âge du père
 E. Le caryotype fœtal
-QCS 2
+* Chap 27 QCS 2
 Quelle est la malformation à rechercher en priorité à la naissance chez un enfant porteur de trisomie 21 ?
+#+ATTR_REVEAL: :frag (highlight-green none)
 A. Cardiaque
 B. Digestive
 C. Rénale
 D. Cérébrale
 E. Vertébrale
-QCS 3
+* Chap 27 QCS 3
 Quel organisme est chargé de l'orientation des enfants trisomiques 21 ?
 A. SESSAD
 B. CAMSP
 C. MDPH
 D. CLIS
 E. CDES
-QCS 4
+* Chap 27 QCS 4
 Quelle complication biologique doit être recherchée régulièrement chez les enfants porteurs de trisomie 21 ?
+#+ATTR_REVEAL: :frag (none none highlight-green none)
 A. Hyperuricémie
 B. Anémie
 C. Hypothyroïdie
 D. Hypernatrémie
 E. Protéinurie
-QCS 5
+* Chap 27 QCS 5
 Quelle complication néoplasique est à redouter particulièrement chez les enfants porteurs de trisomie 21 ?
+#+ATTR_REVEAL: :frag (none none none highlight-green none)
 A. Lymphome
 B. Sarcome
 C. Tumeur cérébrale
 D. Leucémie aiguë myéloïde
 E. Hépatocarcinome
-QCS 6
-Quel est le type cytogénétique le plus fréquent de trisomie 21 ?
-A. Trisomie 21 en mosaïque
-B. Trisomie 21 par translocation robertsonienne
-C. Trisomie 21 par translocation réciproque
-D. Trisomie 21 libre et homogène
-E. Trisomie 21 partielle
-QCS 7
+* TODO QCS 7 :noexport:
 Quel est le risque de récurrence de trisomie 21 pour un couple ayant eu un enfant porteur de trisomie 21 secondaire à une mauvaise disjonction d'une translocation 14 ; 21 d'origine maternelle ?
 A. 1 %
 B. 100 %
@@ -455,7 +441,7 @@ B. Est la première cause de déficience intellectuelle d'origine génétique
 C. Est médicalement nommé « mongolisme »
 D. Est une pathologie acquise
 E. Ne peut pas être diagnostiqué en période néonatale
-* Chap 28
+* TODO Chap 28 :noexport:
 QCM 1
 La mucoviscidose est diagnostiquée classiquement en France :
 A. Sur signes cliniques de bronchopathie chronique dans les premières années de vie
@@ -509,7 +495,7 @@ B. Non-sens
 C. Des insertions/délétions
 D. Des expansions de triplets
 E. Des grands réarrangements génomiques
-* Chap 29
+* Chap 29 :noexport:
 QCM 1
 Concernant le syndrome de l'X fragile, quelles sont les propositions vraies ?
 A. Il s'agit de la forme de déficience intellectuelle d'origine génétique la plus fréquente
@@ -533,16 +519,19 @@ D. Les caractéristiques faciales ne sont ni constantes ni spécifiques
 E. Le diagnostic prénatal peut être proposé à une femme dont le conjoint est porteur d'une prémutation
 * Bonus : PEC BRCA
 Prise en charge des femmes porteuses d'une mutation d'un gène BRCA
-■ À partir de 20 ans, palpation des seins et des creux axillaires tous les 6 mois.
-■ À partir de 30 ans, ou 5 ans avant le cas de cancer du sein s'il existe un cas avant 30 ans, IRM mammaire annuelle, complétée d'une seule incidence de mammographie.
-■ Avant 40 ans, en particulier chez les porteuses d'une mutation de BRCA1, après information, temps de réflexion et accompagnement psychologique mastectomie prophylactique.
-■ Après 40 ans et tout projet parental, annexectomie prophylactique.
+- À partir de 20 ans, palpation des seins et des creux axillaires tous les 6 mois.
+- À partir de 30 ans, ou 5 ans avant le cas de cancer du sein s'il existe un cas avant 30 ans, IRM mammaire annuelle, complétée d'une seule incidence de mammographie.
+- Avant 40 ans, en particulier chez les porteuses d'une mutation de BRCA1, après information, temps de réflexion et accompagnement psychologique mastectomie prophylactique.
+- Après 40 ans et tout projet parental, annexectomie prophylactique.
 * Bonus: Lynch
+#+attr_html: :width 800 px
+[[./img/lynch.png]]
+
 * Bonus: PEC MMR
 Prise en charge des porteurs et porteuses d'une mutation d'un gène MMR
-■ À partir de 20 ans, chromocoloscopie complète tous les deux ans.
-■ À partir de 30 ans, échographie endovaginale avec prélèvement endométrial par Pipelle de Cornier tous les deux ans.
-■ Après 40 ans et accomplissement du projet parental, hystérectomie avec ovariectomie prophylactique.
+- À partir de 20 ans, chromocoloscopie complète tous les deux ans.
+- À partir de 30 ans, échographie endovaginale avec prélèvement endométrial par Pipelle de Cornier tous les deux ans.
+- Après 40 ans et accomplissement du projet parental, hystérectomie avec ovariectomie prophylactique.
 * Bonus: noms des gènes
 | Forme héréditaire de cancer                                | Gène         | Name                                       |
 |------------------------------------------------------------+--------------+--------------------------------------------|
@@ -557,6 +546,8 @@ Prise en charge des porteurs et porteuses d'une mutation d'un gène MMR
 | Polypose adénomateuse familiale                            | APC          | Adenomatous Polyposis coli                 |
 | Syndrome de Gorlin                                         | PTCH         | PaTCH                                      |
 | Tumeur de Wilms                                            | WT1          | Wil's Tumor                                |
+
+* Bonus 2
 |------------------------------------------------------------+--------------+--------------------------------------------|
 | II. Altération des points de contrôles du cycle cellulaire |              |                                            |
 |------------------------------------------------------------+--------------+--------------------------------------------|
@@ -572,21 +563,24 @@ Prise en charge des porteurs et porteuses d'une mutation d'un gène MMR
 | Syndrome de Lynch                                          | MSH          | DNA repair MiSmatcH                        |
 | Xeroderma pigmentosum                                      | XP           | idem                                       |
 |------------------------------------------------------------+--------------+--------------------------------------------|
-| Autres                                                     |              |                                            |
-|------------------------------------------------------------+--------------+--------------------------------------------|
-| Cancers bronchiques                                        | ALK          | Activin receptor-Like Kinase 1             |
-| Carcinomes colique, bronchiques                            | KRAS         | Kirsten RAt Sarcoma viral oncogene homolog |
-| Carcinomes sein, ovaire                                    | HER2         | Human Epidermal growth factor Receptor 2   |
-| Carcinomes+++, gliomes                                     | EGFR         | Epidermal Growth Factor Receptor           |
-| GastroIntestinal STromal Tumor                             | KIT          |                                            |
-| Leucémies aigües myéloïdes                                 | FLT3         | Fms-Like Tyrosine kinase 3                 |
-| Leucémies, mélanomes                                       | NRAS         | Neuroblastoma-RAS                          |
-| Lymphome de Burkitt                                        | C-MYC        | Cellular MYeloCytomatosis                  |
-| Lymphomes du manteau                                       | Cycline D    |                                            |
-| Mélanome                                                   | CD4          | Cluster of differentiation 4               |
-| Mélanomes                                                  | BRAF         |                                            |
-| Neuroblastomes                                             | N-MYC        |                                            |
-| Sarcomes, gliomes                                          | PDGFR        | Platelet-derived growth factor receptors   |
+
+* Bonus 3
+
+| Autres                          |           |                                            |
+|---------------------------------+-----------+--------------------------------------------|
+| Cancers bronchiques             | ALK       | Activin receptor-Like Kinase 1             |
+| Carcinomes colique, bronchiques | KRAS      | Kirsten RAt Sarcoma viral oncogene homolog |
+| Carcinomes sein, ovaire         | HER2      | Human Epidermal growth factor Receptor 2   |
+| Carcinomes+++, gliomes          | EGFR      | Epidermal Growth Factor Receptor           |
+| GastroIntestinal STromal Tumor  | KIT       |                                            |
+| Leucémies aigües myéloïdes      | FLT3      | Fms-Like Tyrosine kinase 3                 |
+| Leucémies, mélanomes            | NRAS      | Neuroblastoma-RAS                          |
+| Lymphome de Burkitt             | C-MYC     | Cellular MYeloCytomatosis                  |
+| Lymphomes du manteau            | Cycline D |                                            |
+| Mélanome                        | CD4       | Cluster of differentiation 4               |
+| Mélanomes                       | BRAF      |                                            |
+| Neuroblastomes                  | N-MYC     |                                            |
+| Sarcomes, gliomes               | PDGFR     | Platelet-derived growth factor receptors   |
 * Corrigés :noexport:
 Entraînement 2
 Chapitre 2
